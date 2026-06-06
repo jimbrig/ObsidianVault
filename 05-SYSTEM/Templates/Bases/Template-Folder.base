@@ -1,0 +1,9 @@
+filters:
+  and:
+    - file.inFolder(this.file.folder)
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.path != this.file.path

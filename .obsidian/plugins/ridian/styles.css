@@ -1,0 +1,518 @@
+
+/* Additional Custom R Run Button Styles */
+
+body[ridian] {
+--file-line-width: 800px;
+}
+
+.r-run-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 2px 6px;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+}
+
+.HyperMD-codeblock.HyperMD-codeblock-bg.cm-line[ridian] {
+    max-width: 800px !important
+}
+
+
+.r-run-button:hover {
+  background-color: #d0d0d0;
+}
+
+/* Custom Styling for OUTPUT Callout */
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+
+.callout[data-callout="output"] {
+  background-color: var(--background-primary);
+  border-left: 3px solid var(--color-accent);
+    max-width: 800px;
+}
+
+.callout[data-callout="output"] > .callout-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.callout[data-callout="output"] > .callout-content {
+  font-family: 'Monaco', 'Fira Mono', monospace;
+  max-height: calc(1.5em * 25);
+  overflow-y: auto;
+}
+
+.callout[data-callout="output"].is-collapsed > .callout-content {
+  max-height: calc(1.5em * 3);
+  overflow: hidden;
+  position: relative;
+}
+
+.callout[data-callout="output"].is-collapsed > .callout-content::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1.5em;
+  background: linear-gradient(to bottom, transparent, var(--background-primary));
+}
+
+/* Dark Theme Adjustments */
+@media (prefers-color-scheme: dark) {
+  .callout[data-callout="output"] {
+    border-left: 3px solid var(--color-accent);
+  }
+
+  .callout[data-callout="output"].is-collapsed > .callout-content::after {
+    background: linear-gradient(to bottom, transparent);
+  }
+}
+
+/* Image Alignment */
+img[alt*="center"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img[alt*="right"] {
+  float: right;
+  clear: right;
+  margin-left: 1rem;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+
+/* Floating Menu Styles */
+.floating-menu {
+  position: sticky;
+  top: 0;
+  background-color: var(--background);
+  z-index: 10;
+  display: flex;
+  width: fit-content; /* Adjust width to fit content */
+  margin: 0 auto; /* Center the menu bar within its parent */
+  padding: 4px 8px; /* Add padding around the buttons */
+  border-radius: 10px; /* Rounded corners for the menu bar */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.floating-menu-button {
+  color: var(--text-normal);
+  border: 4px; 
+  padding: 2px 6px; /* Adjust padding for comfortable click area */
+  margin: 2px; 
+  border-radius: 4px; 
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s; /* Smooth transition for hover effect */
+  border-radius: 10px; /* Rounded corners for the menu bar */
+}
+
+/* Adjust icon size */
+.floating-menu-button svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* Button spacing */
+.floating-menu-button:not(:last-child) {
+  margin-right: 4px; /* Ensure no large gaps between buttons */
+}
+
+/* Override the top margin of the editor */
+.cm-editor {
+  margin-top: 0 !important;
+}
+
+/* Ensure parent elements have transparent backgrounds */
+.view-content {
+  background-color: transparent !important;
+}
+
+/* Styling for button text */
+.floating-menu-button .button-text {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 250; /* Thin font weight */
+  font-size: 10px;
+  line-height: 1;
+}
+
+/* Enhanced Glow-on-Hover Effect */
+.glow-on-hover {
+  border: 4px; 
+  padding: 8px 12px; /* Adjust padding for comfortable click area */
+  margin: 2px; 
+  position: relative;
+  overflow: visible; /* Ensure glow isn't clipped */
+  color: #fff; /* Text color */
+  background: #111; /* Button background color */
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #48ff00, #00ffd5, #002bff, #7a00ff);
+  position: absolute;
+  top: -2px; /* Increased to accommodate larger blur */
+  left: -2px; /* Increased to accommodate larger blur */
+  background-size: 110%; /* Increased for smoother animation */
+  z-index: -2; /* Ensure it stays behind the button */
+  filter: blur(2px); /* Increased blur for a more prominent glow */
+  width: calc(100% + 2px); /* Adjusted to match increased top and left */
+  height: calc(100% + 2px); /* Adjusted to match increased top and left */
+  animation: glowing 2s linear infinite;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  border-radius: 10px; /* Slightly increased border-radius */
+}
+
+.glow-on-hover:active {
+  color: #000;
+  background: #fff; /* Optional: Change background on active state */
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 130% 0; } /* Adjusted to match background-size */
+  100% { background-position: 0 0; }
+}
+
+/* Light Mode */
+.theme-light .cm-keyword {
+  color: #0000ff; /* Bright Blue */
+  font-weight: bold;
+}
+
+.theme-light .cm-atom {
+  color: #aa5500; /* Brownish-Orange */
+}
+
+.theme-light .cm-string {
+  color: #008000; /* Dark Green */
+}
+
+.theme-light .cm-comment {
+  color: #999999; /* Grey */
+  font-style: italic;
+}
+
+.theme-light .cm-number {
+  color: #a4032b; /* Red */
+}
+
+.theme-light .cm-operator {
+  color: #000000; /* Black */
+}
+
+.theme-light .cm-punctuation {
+  color: #000000; /* Black */
+}
+
+.theme-light .cm-variable {
+  color: #0000ff; /* Blue */
+}
+
+/* Dark Mode */
+.theme-dark .cm-keyword {
+  color: #7aa2f7; /* Soft Blue */
+  font-weight: bold;
+}
+
+.theme-dark .cm-atom {
+  color: #dca561; /* Muted Orange */
+}
+
+.theme-dark .cm-string {
+  color: #98c379; /* Green */
+}
+
+.theme-dark .cm-comment {
+  color: #5c6370; /* Gray */
+  font-style: italic;
+}
+
+.theme-dark .cm-number {
+  color: #f76685; /* Soft Red */
+}
+
+.theme-dark .cm-operator {
+  color: #c8ccd4; /* Light Gray */
+}
+
+.theme-dark .cm-punctuation {
+  color: #abb2bf; /* Gray */
+}
+
+.theme-dark .cm-variable {
+  color: #61afef; /* Lighter Blue */
+}
+
+/* R Environment Style */
+
+/* Container */
+.r-environment-content {
+  padding: 15px;
+  overflow-y: auto;
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  background: var(--background-primary);
+  border-radius: 8px;
+}
+
+/* Title */
+.r-environment-title {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--text-normal);
+  border-bottom: 2px solid rgba(200, 200, 200, 0.5);
+  padding: 5px 0;
+}
+
+/* Table */
+.r-environment-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Menlo', 'Monaco', monospace;
+  table-layout: auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Table Header */
+.r-environment-header-cell {
+  background: var(--background-secondary-alt);
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  color: var(--text-muted);
+  padding: 10px;
+  border-bottom: 1px solid var(--background-hover);
+}
+
+/* Table Rows */
+.r-environment-row {
+  transition: background-color 0.2s ease-in-out;
+  border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+}
+
+.r-environment-row:hover {
+  background-color: var(--background-hover);
+}
+
+/* Table Cells */
+.r-environment-cell {
+  padding: 10px 8px;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text-normal);
+}
+
+/* Align numeric columns to the right */
+.text-align-right {
+  text-align: right;
+}
+
+.value-cell {
+  max-width: 40%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Alternate Row Coloring for Visual Clarity */
+.r-environment-row:nth-child(even) {
+  background-color: var(--background-secondary);
+}
+
+
+
+
+/* Stlye R Help view +/
+
+/* R Help View Content */
+.r-help-content {
+  padding: 1px;
+  overflow-y: auto;
+  font-family: "Helvetica Neue", "Roboto",  Arial, sans-serif;
+  font-weight: 250; /* Thin font weight */
+  color: var(--text-normal);
+  background-color: var(--background-secondary);
+}
+
+/* Code Elements in R Help View */
+.r-help-code {
+  font-family: 'Monaco', 'Courier New', monospace;
+  font-size: 0.95em;
+  background-color: var(--background-secondary);
+  padding: 2px 4px;
+  border-radius: 4px;
+  color: var(--text-muted);
+}
+
+.r-help-content blockquote {
+  border-left: 4px solid var(--background-modifier-border);
+  padding: 0 1em;
+  color: var(--text-muted);
+  margin: 0 0 1em;
+}
+
+
+
+/* ==============================
+   Completion Dropdown Styles
+   ============================== */
+
+/* Container for Completion Dropdown */
+.completion-dropdown {
+  position: absolute;
+  z-index: 1000;
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  padding: 4px 0;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Individual Completion Item */
+.completion-item {
+  font-family: monospace;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 10px;
+  font-weight: 200;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Highlighted (Selected) Completion Item */
+.completion-item.is-selected {
+  background-color: var(--background-modifier-hover);
+  color: var(--text-selection);
+}
+
+/* ==============================
+ Signature Help Dropdown Styles
+ ============================== */
+
+/* Container for Signature Help Dropdown */
+.signature-help-dropdown {
+  position: absolute;
+  z-index: 1000;
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  padding: 4px;
+  max-width:500px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  font-family: monospace;
+  font-size: 10px;
+  white-space: pre-wrap;
+
+}
+
+/* Signature Label (Function Name) */
+.signature-label {
+  font-family: monospace;
+  font-weight: 400;
+  margin-bottom: 4px;
+  white-space: pre-wrap;
+}
+
+/* Signature Documentation (Description) */
+.signature-value {
+  font-family: inherit;
+  color: var(--text-muted);
+  font-family: monospace;
+  font-weight: 200;
+  white-space: pre-wrap;
+}
+
+/* ==============================
+ Common Dropdown Styles
+ ============================== */
+
+/* Smooth Transition for Dropdown Appearance */
+.completion-dropdown,
+.signature-help-dropdown {
+  opacity: 0;
+  animation: fadeIn 0.2s forwards;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+  }
+}
+
+/* Hover Effect for Dropdown Items */
+.completion-item:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+/* Scrollbar Styling (Optional for Better Aesthetics) */
+.completion-dropdown::-webkit-scrollbar,
+.signature-help-dropdown::-webkit-scrollbar {
+  width: 8px;
+}
+
+.completion-dropdown::-webkit-scrollbar-track,
+.signature-help-dropdown::-webkit-scrollbar-track {
+  background: var(--background-secondary);
+  border-radius: 4px;
+}
+
+.completion-dropdown::-webkit-scrollbar-thumb,
+.signature-help-dropdown::-webkit-scrollbar-thumb {
+  background-color: var(--background-modifier-border);
+  border-radius: 4px;
+}
+
+/* Responsive Positioning Adjustments */
+@media (max-width: 600px) {
+  .completion-dropdown,
+  .signature-help-dropdown {
+      max-width: 90%;
+      left: 5%;
+      right: 5%;
+  }
+}

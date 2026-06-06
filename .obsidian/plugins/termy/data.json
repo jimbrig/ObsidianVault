@@ -1,0 +1,143 @@
+{
+  "platformShells": {
+    "windows": "pwsh",
+    "darwin": "zsh",
+    "linux": "bash"
+  },
+  "platformCustomShellPaths": {
+    "windows": "",
+    "darwin": "",
+    "linux": ""
+  },
+  "shellArgs": [],
+  "autoEnterVaultDirectory": true,
+  "newInstanceBehavior": "newHorizontalSplit",
+  "createInstanceNearExistingOnes": true,
+  "focusNewInstance": true,
+  "lockNewInstance": false,
+  "fontSize": 12,
+  "fontFamily": "Consolas, \"Courier New\", monospace",
+  "cursorStyle": "block",
+  "cursorBlink": true,
+  "useObsidianTheme": true,
+  "preferredRenderer": "canvas",
+  "scrollback": 1000,
+  "backgroundImageOpacity": 0.5,
+  "backgroundImageSize": "cover",
+  "backgroundImagePosition": "center",
+  "enableBlur": false,
+  "blurAmount": 10,
+  "textOpacity": 1,
+  "visibility": {
+    "enabled": true,
+    "showInCommandPalette": true,
+    "showInRibbon": true,
+    "showInNewTab": true,
+    "showInStatusBar": true
+  },
+  "serverConnection": {
+    "binaryDownloadSource": "cloudflare-r2",
+    "offlineMode": false
+  },
+  "presetScripts": [
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "icon": "claude",
+      "actions": [
+        {
+          "id": "action-claude-code",
+          "type": "terminal-command",
+          "value": "claude",
+          "enabled": true,
+          "note": ""
+        }
+      ],
+      "terminalTitle": "Claude Code",
+      "showInStatusBar": true,
+      "autoOpenTerminal": true,
+      "runInNewTerminal": false
+    },
+    {
+      "id": "codex",
+      "name": "Codex CLI",
+      "icon": "openai",
+      "actions": [
+        {
+          "id": "action-codex-install",
+          "type": "terminal-command",
+          "value": "npm install -g @openai/codex oh-my-codex",
+          "enabled": false,
+          "note": "Install Codex CLI & oh-my-codex"
+        },
+        {
+          "id": "action-codex",
+          "type": "terminal-command",
+          "value": "codex",
+          "enabled": true,
+          "note": "Launch Codex with Obsidian context"
+        }
+      ],
+      "terminalTitle": "Codex",
+      "showInStatusBar": true,
+      "autoOpenTerminal": true,
+      "runInNewTerminal": false
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "icon": "opencode",
+      "actions": [
+        {
+          "id": "action-opencode",
+          "type": "terminal-command",
+          "value": "opencode",
+          "enabled": true,
+          "note": "Launch OpenCode with Obsidian context"
+        }
+      ],
+      "terminalTitle": "OpenCode",
+      "showInStatusBar": true,
+      "autoOpenTerminal": true,
+      "runInNewTerminal": false
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "icon": "gemini",
+      "actions": [
+        {
+          "id": "action-gemini-cli",
+          "type": "terminal-command",
+          "value": "gemini",
+          "enabled": true,
+          "note": ""
+        }
+      ],
+      "terminalTitle": "Gemini CLI",
+      "showInStatusBar": true,
+      "autoOpenTerminal": true,
+      "runInNewTerminal": false
+    },
+    {
+      "id": "preset-1779032147909-tbmtnq",
+      "name": "Cursor",
+      "icon": "folder-open",
+      "actions": [
+        {
+          "id": "action-1779032188957-0uagxx",
+          "type": "terminal-command",
+          "value": "cursor .",
+          "enabled": true,
+          "note": "Launch Cursor in the current Vault's folder"
+        }
+      ],
+      "terminalTitle": "",
+      "showInStatusBar": true,
+      "autoOpenTerminal": true,
+      "runInNewTerminal": false
+    }
+  ],
+  "lastSeenChangelogVersion": "1.4.1",
+  "enableDebugLog": false
+}

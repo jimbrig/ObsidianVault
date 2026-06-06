@@ -1,0 +1,3 @@
+```cmd
+cmdkey.exe /list
+```

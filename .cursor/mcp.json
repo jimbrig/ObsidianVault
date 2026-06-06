@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "obsidian": {
+      "command": "uvx",
+      "args": [
+        "mcp-obsidian"
+      ],
+      "envFile": "${workspaceFolder}/.cursor/mcp.env",
+      "env": {
+        "OBSIDIAN_API_KEY": "${env:OBSIDIAN_API_KEY}",
+        "OBSIDIAN_HOST": "http://127.0.0.1",
+        "OBSIDIAN_PORT": "27123"
+      }
+    },
+    "github": {
+      "type": "stdio",
+      "command": "bunx",
+      "args": ["--bun", "-y", "@modelcontextprotocol/server-github"],
+      "envFile": "${workspaceFolder}/.cursor/mcp.env",
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${env:GITHUB_PAT}"
+      }
+    },
+    "raindrop": {
+      "type": "http",
+      "url": "https://api.raindrop.io/rest/v2/ai/mcp"
+    }
+  },
+  "inputs": [
+  ]
+}

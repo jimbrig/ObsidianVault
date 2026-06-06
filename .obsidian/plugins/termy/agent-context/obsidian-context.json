@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "source": "termy",
+  "updatedAt": "2026-06-06T22:23:42.499Z",
+  "vaultRoot": "X:/obsidian/ObsidianVault",
+  "workspaceFolders": [
+    "X:/obsidian/ObsidianVault"
+  ],
+  "activeFile": {
+    "filePath": "X:\\obsidian\\ObsidianVault\\00-INBOX\\GDAL Streaming Algorithm Format (GDALG).md",
+    "vaultPath": "00-INBOX/GDAL Streaming Algorithm Format (GDALG).md",
+    "fileUrl": "file:///X:/obsidian/ObsidianVault/00-INBOX/GDAL%20Streaming%20Algorithm%20Format%20(GDALG).md",
+    "hasFocus": false
+  },
+  "openFiles": [
+    {
+      "filePath": "X:\\obsidian\\ObsidianVault\\00-INBOX\\GDAL Streaming Algorithm Format (GDALG).md",
+      "vaultPath": "00-INBOX/GDAL Streaming Algorithm Format (GDALG).md",
+      "fileUrl": "file:///X:/obsidian/ObsidianVault/00-INBOX/GDAL%20Streaming%20Algorithm%20Format%20(GDALG).md",
+      "isActive": true
+    }
+  ],
+  "selection": null
+}

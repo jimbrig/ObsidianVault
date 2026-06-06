@@ -1,0 +1,27 @@
+{
+  "livePreview": false,
+  "readableLineLength": false,
+  "tabSize": 2,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00-INBOX",
+  "attachmentFolderPath": "05-SYSTEM/Attachments",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true,
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    ".cursor/",
+    ".git/",
+    ".github/",
+    "*.vault",
+    ".vscode/",
+    "quartz/",
+    ".editorconfig",
+    ".export-ignore",
+    ".gitignore",
+    ".gitattributes",
+    ".gitmodules",
+    "*.code-workspace"
+  ],
+  "uriCallbacks": true
+}

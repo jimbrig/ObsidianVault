@@ -1,0 +1,16 @@
+*.exe
+**/cache.json
+**/cache/
+
+copilot/data.json
+github-copilot/data.json
+obsidian-local-rest-api/data.json
+obsidian-imgur-plugin/data.json
+obsidian-raindrop-highlights/data.json
+obsidian-google-lookup/data.json
+smart-connections/data.json
+readwise-official/data.json
+google-drive-sync/data.json
+medium-importer/data.json
+obsidian-raindrop/data.json
+obsidian-git/obsidian_askpass.sh

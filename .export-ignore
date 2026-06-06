@@ -1,0 +1,30 @@
+# binary files
+*.pdf
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+*.csv
+
+# config files
+*.gitignore
+*.gitattributes
+*.gitmodules
+*.gitkeep
+*.vault
+*.export-ignore
+*.editorconfig
+
+# git and tooling
+.git/*
+.vscode/*
+.cursor/*
+.github/*
+
+# quartz submodule (has its own content)
+quartz/*
+
+# archives
+99-ARCHIVES/*
