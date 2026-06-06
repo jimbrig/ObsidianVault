@@ -22,5 +22,13 @@
       ],
       "key": "M"
     }
+  ],
+  "termy:open-terminal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
   ]
 }
