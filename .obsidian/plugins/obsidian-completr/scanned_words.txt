@@ -120,6 +120,8 @@ content
 commonly
 certain
 constrained
+cssclasses
+correct
 date
 description
 development
@@ -216,6 +218,10 @@ deck
 dedicated
 daily
 deprecated
+dev
+dependent
+decimal
+digits
 modification
 md
 modified
@@ -389,6 +395,7 @@ alterations
 annual
 attachments
 acronyms
+arrays
 Jimmy
 JavaScript
 JSON
@@ -417,6 +424,7 @@ Buildable
 Buffers
 Boundary
 BuildableArea
+Backlinks
 jimmy
 jimbrig
 just
@@ -511,6 +519,7 @@ Demographics
 Density
 Demographic
 Definitions
+Details
 Utilities
 UTF
 Usage
@@ -523,6 +532,7 @@ URL
 USGS
 Used
 URLs
+Understanding
 tags
 tests
 testthat
@@ -701,6 +711,8 @@ Content
 Conventions
 Continuously
 Curated
+Comprehensive
+Character
 Status
 Skill
 SKILL
@@ -761,6 +773,10 @@ Shiny
 Suitability
 Stacking
 Site
+Sizes
+Strings
+Specifiers
+Specifier
 WIP
 Williams
 Web
@@ -786,6 +802,7 @@ Water
 Work
 Weekly
 Workflows
+Width
 httptest
 host
 hold
@@ -879,6 +896,7 @@ filled
 fileName
 folderPath
 folderName
+fundamental
 working
 with
 writes
@@ -1085,6 +1103,11 @@ provider
 predictable
 properties
 placeholder
+primitives
+proper
+programs
+precision
+printf
 API
 Anything
 Appendix
@@ -1127,6 +1150,7 @@ AI
 Agents
 Atomic
 Archived
+Arrays
 Overview
 Ongoing
 OWL
@@ -1192,6 +1216,7 @@ never
 notes
 noteTopic
 noteDescription
+noclocks
 usage
 user
 utils
@@ -1363,6 +1388,9 @@ serving
 situations
 semantic
 status
+strings
+storing
+scanf
 Resources
 RDF
 Representational
@@ -1405,6 +1433,7 @@ Relief
 Render
 Readme
 References
+Ranges
 YYYY
 You
 YES
@@ -1648,6 +1677,7 @@ reactive
 referential
 resort
 revisted
+ranges
 Layer
 Library
 Libraries
@@ -1667,6 +1697,7 @@ Land
 Local
 Leaflet
 Links
+Language
 Interface
 Inspired
 Implementations
@@ -1697,6 +1728,7 @@ Interest
 Isochrones
 Isochrone
 Interactive
+Integer
 Programming
 Portability
 Patch
@@ -1735,6 +1767,9 @@ Polygons
 Protected
 Progress
 People
+Properties
+Primitive
+Platform
 Geospatial
 Goals
 GDAL
@@ -1800,6 +1835,7 @@ Function
 Flow
 Frontmatter
 Finished
+Fixed
 encoding
 enabling
 efficiently
@@ -1926,6 +1962,7 @@ visually
 visualizations
 vault
 vocabulary
+variety
 Header
 Hilbert
 Horace
@@ -1965,6 +2002,7 @@ ESRI
 External
 Environmental
 Elevation
+Enumerations
 Key
 KD
 Keys
@@ -1976,6 +2014,7 @@ key
 know
 kdtree
 knowledge
+kinds
 VDL
 VM
 VHDs
@@ -1993,6 +2032,7 @@ Vegetation
 Visualizations
 Visualization
 Vault
+Variables
 quick
 querying
 quickly
@@ -2011,6 +2051,7 @@ Querying
 Query
 Quick
 Quotations
+Qualifiers
 XDG
 Zones
 ZIP

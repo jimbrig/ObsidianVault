@@ -24,12 +24,39 @@ includeLinks: true
 
 ## Overview
 
+> [!INFO] <% code.language %>
+> **Language**: <% code.language %>
+> **Dependencies**: *None*
+
+> [!SOURCE] Sources
+> - *Source URL or reference*
+
 **<% code.name %>** ...
+
+## Code
 
 ```<% code.fence %>
 
 ```
 
-## See Also
+## Usage
 
-- <% code.mocLink %>
+```<% code.fence %>
+
+```
+
+## Notes
+
+***
+
+## Appendix
+
+*Note created on [[<% tp.file.creation_date("YYYY-MM-DD") %>]] and last modified on [[<% tp.file.last_modified_date("YYYY-MM-DD") %>]].*
+
+### See Also
+
+<% code.seeAlsoLines %>
+
+***
+
+(c) Jimmy Briggs <jimmy.briggs@jimbrig.com> | <% tp.date.now("YYYY") %>

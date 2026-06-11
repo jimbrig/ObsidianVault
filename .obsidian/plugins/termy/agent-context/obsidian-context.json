@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-06-11T22:13:21.020Z",
+  "updatedAt": "2026-06-11T22:31:14.030Z",
   "vaultRoot": "D:/obsidian/ObsidianVault",
   "workspaceFolders": [
     "D:/obsidian/ObsidianVault"
   ],
   "activeFile": {
-    "filePath": "D:\\obsidian\\ObsidianVault\\05-SYSTEM\\Templates\\Template-Guide.md",
-    "vaultPath": "05-SYSTEM/Templates/Template-Guide.md",
-    "fileUrl": "file:///D:/obsidian/ObsidianVault/05-SYSTEM/Templates/Template-Guide.md",
+    "filePath": "D:\\obsidian\\ObsidianVault\\04-RESOURCES\\Code\\C\\C - Data Types.md",
+    "vaultPath": "04-RESOURCES/Code/C/C - Data Types.md",
+    "fileUrl": "file:///D:/obsidian/ObsidianVault/04-RESOURCES/Code/C/C%20-%20Data%20Types.md",
     "hasFocus": false
   },
   "openFiles": [
@@ -23,8 +23,33 @@
       "filePath": "D:\\obsidian\\ObsidianVault\\05-SYSTEM\\Templates\\Template-Guide.md",
       "vaultPath": "05-SYSTEM/Templates/Template-Guide.md",
       "fileUrl": "file:///D:/obsidian/ObsidianVault/05-SYSTEM/Templates/Template-Guide.md",
+      "isActive": false
+    },
+    {
+      "filePath": "D:\\obsidian\\ObsidianVault\\04-RESOURCES\\Code\\_inbox\\C\\C - Data Types.md",
+      "vaultPath": "04-RESOURCES/Code/_inbox/C/C - Data Types.md",
+      "fileUrl": "file:///D:/obsidian/ObsidianVault/04-RESOURCES/Code/_inbox/C/C%20-%20Data%20Types.md",
+      "isActive": false
+    },
+    {
+      "filePath": "D:\\obsidian\\ObsidianVault\\04-RESOURCES\\Code\\C\\C - Data Types.md",
+      "vaultPath": "04-RESOURCES/Code/C/C - Data Types.md",
+      "fileUrl": "file:///D:/obsidian/ObsidianVault/04-RESOURCES/Code/C/C%20-%20Data%20Types.md",
       "isActive": true
     }
   ],
-  "selection": null
+  "selection": {
+    "text": "",
+    "isEmpty": true,
+    "from": {
+      "line": 28,
+      "ch": 26,
+      "offset": 480
+    },
+    "to": {
+      "line": 28,
+      "ch": 26,
+      "offset": 480
+    }
+  }
 }

@@ -277,6 +277,13 @@ async function setupCodeNote(tp) {
 
   const aliases = unique([name, name.replace(/\(\)$/, "")].filter(Boolean));
 
+  // see also: language folder index (only when one exists) + moc
+  const seeAlso = [];
+  if (tp.app.vault.getAbstractFileByPath(`${CODE_ROOT}/${language}/_README.md`)) {
+    seeAlso.push(`[[${CODE_ROOT}/${language}/_README|${language} Code Index]]`);
+  }
+  seeAlso.push(`[[${meta.moc}]]`);
+
   return {
     language,
     name,
@@ -286,6 +293,7 @@ async function setupCodeNote(tp) {
     mocLink: `[[${meta.moc}]]`,
     topicTagLines: toYamlTagLines("Topic", topics, meta.topic),
     aliasLines: toYamlListLines(aliases),
+    seeAlsoLines: seeAlso.map((link) => `- ${link}`).join("\n"),
   };
 }
 

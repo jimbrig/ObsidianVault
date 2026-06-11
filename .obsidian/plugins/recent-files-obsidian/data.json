@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "C - Data Types",
+      "path": "04-RESOURCES/Code/C/C - Data Types.md"
+    },
+    {
+      "basename": "C - Data Types",
+      "path": "04-RESOURCES/Code/_inbox/C/C - Data Types.md"
+    },
+    {
       "basename": "Template-Guide",
       "path": "05-SYSTEM/Templates/Template-Guide.md"
     },
@@ -187,18 +195,6 @@
     {
       "basename": "MOC - Artificial Intelligence",
       "path": "03-AREAS/MOC - Artificial Intelligence.md"
-    },
-    {
-      "basename": "MOC - Actuarial Science",
-      "path": "03-AREAS/MOC - Actuarial Science.md"
-    },
-    {
-      "basename": "TAGS",
-      "path": "05-SYSTEM/Meta/TAGS.md"
-    },
-    {
-      "basename": "JavaScript - Decode & Encode URI Components",
-      "path": "04-RESOURCES/Code/JavaScript/JavaScript - Decode & Encode URI Components.md"
     }
   ],
   "omittedPaths": [],
