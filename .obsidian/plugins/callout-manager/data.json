@@ -1,9 +1,18 @@
 {
   "callouts": {
     "custom": [
-      "source"
+      "source",
+      "code"
     ],
-    "settings": {}
+    "settings": {
+      "code": [
+        {
+          "changes": {
+            "icon": "lucide-message-square-code"
+          }
+        }
+      ]
+    }
   },
   "calloutDetection": {
     "obsidian": true,

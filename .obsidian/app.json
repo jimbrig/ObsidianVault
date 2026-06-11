@@ -21,7 +21,9 @@
     ".gitignore",
     ".gitattributes",
     ".gitmodules",
-    "*.code-workspace"
+    "*.code-workspace",
+    "04-RESOURCES/Code/_inbox/"
   ],
-  "uriCallbacks": true
+  "uriCallbacks": true,
+  "settingsPopoutWindow": false
 }

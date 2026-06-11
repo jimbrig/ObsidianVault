@@ -1,7 +1,6 @@
 <%*
-const noteName = tp.file.title.split(" (")[0];
-const noteAcronym = tp.file.title.split(" (")[1].replace(")", "");
-const noteDescription = `Definition note for ${noteName} (${noteAcronym})`;
+const noteTopic = tp.file.title.split("Guide - ")[1];
+const noteDescription = `Guide for ${noteTopic}`;
 const noteTopics = await tp.user.utils.promptForTopics(tp, { fallbackValue: "NA" });
 const topicTagLines = tp.user.utils.toYamlTagLines("Topic", noteTopics, "NA");
 -%>
@@ -11,12 +10,12 @@ modification_date: <% tp.file.last_modified_date("YYYY-MM-DD") %>
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 description: '<% noteDescription %>'
 tags:
-  - Type/Definition
+  - Type/Guide
   - Status/WIP
 <% topicTagLines %>
 aliases:
-  - <% noteAcronym %>
-  - <% noteName %>
+  - <% noteTopic %> Guide
+  - <% noteTopic %>
 ---
 
 ```table-of-contents
@@ -29,6 +28,6 @@ includeLinks: true
 
 ## Overview
 
-**<% noteName %>** ...
+This is a guide for **<% noteTopic %>**.
 
 <% tp.file.include("[[Template-Backmatter]]") %>

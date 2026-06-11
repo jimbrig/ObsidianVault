@@ -1,15 +1,14 @@
 {
   "mcpServers": {
     "obsidian": {
-      "command": "uvx",
-      "args": [
-        "mcp-obsidian"
-      ],
+      "type": "http",
+      "url": "https://127.0.0.1:27124/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${env:OBSIDIAN_API_KEY}"
+      },
       "envFile": "${workspaceFolder}/.cursor/mcp.env",
       "env": {
-        "OBSIDIAN_API_KEY": "${env:OBSIDIAN_API_KEY}",
-        "OBSIDIAN_HOST": "http://127.0.0.1",
-        "OBSIDIAN_PORT": "27123"
+        "OBSIDIAN_API_KEY": "${env:OBSIDIAN_API_KEY}"
       }
     },
     "github": {

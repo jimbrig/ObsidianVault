@@ -1,8 +1,8 @@
 ---
 creation_date: 2026-05-04
-modification_date: 2026-05-04
+modification_date: 2026-06-11T15:50:24-04:00
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
-description: 'AGENTS.md for the Vault'
+description: AGENTS.md for the Vault
 tags:
   - Type/Meta
   - Status/Ongoing

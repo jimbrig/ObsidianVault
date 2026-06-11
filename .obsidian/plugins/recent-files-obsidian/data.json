@@ -1,12 +1,176 @@
 {
   "recentFiles": [
     {
-      "basename": "GDAL Streaming Algorithm Format (GDALG)",
-      "path": "00-INBOX/GDAL Streaming Algorithm Format (GDALG).md"
+      "basename": "Template-Guide",
+      "path": "05-SYSTEM/Templates/Template-Guide.md"
+    },
+    {
+      "basename": "R - ArcGIS PBF",
+      "path": "04-RESOURCES/Code/R/R - ArcGIS PBF.md"
+    },
+    {
+      "basename": "Template-Code",
+      "path": "05-SYSTEM/Templates/Template-Code.md"
+    },
+    {
+      "basename": "AGENTS",
+      "path": "AGENTS.md"
+    },
+    {
+      "basename": "LandRise Map Layers",
+      "path": "00-INBOX/LandRise Map Layers.md"
+    },
+    {
+      "basename": "2026-06-10",
+      "path": "02-JOURNAL/2026/06-June/2026-06-10.md"
+    },
+    {
+      "basename": "Template-Daily",
+      "path": "05-SYSTEM/Templates/Template-Daily.md"
+    },
+    {
+      "basename": "Land Suitability Evaluation Example",
+      "path": "00-INBOX/Land Suitability Evaluation Example.md"
+    },
+    {
+      "basename": "GDAL - Vector Driver Configuration Options",
+      "path": "00-INBOX/GDAL - Vector Driver Configuration Options.md"
+    },
+    {
+      "basename": "GDAL Driver Metadata",
+      "path": "00-INBOX/GDAL Driver Metadata.md"
     },
     {
       "basename": "GDAL Configuration",
       "path": "00-INBOX/GDAL Configuration.md"
+    },
+    {
+      "basename": "Guide - ArcGIS REST API",
+      "path": "04-RESOURCES/Guides/Guide - ArcGIS REST API.md"
+    },
+    {
+      "basename": "R - ArcGIS GPServer API Client",
+      "path": "04-RESOURCES/Code/R/R - ArcGIS GPServer API Client.md"
+    },
+    {
+      "basename": "Guide - WSL2 Development Environment Setup",
+      "path": "04-RESOURCES/Guides/Guide - WSL2 Development Environment Setup.md"
+    },
+    {
+      "basename": "Guide - Optimizing Remotely Hosted FlatGeobufs",
+      "path": "04-RESOURCES/Guides/Guide - Optimizing Remotely Hosted FlatGeobufs.md"
+    },
+    {
+      "basename": "Guide - Best Practices for Distributing GeoParquet",
+      "path": "04-RESOURCES/Guides/Guide - Best Practices for Distributing GeoParquet.md"
+    },
+    {
+      "basename": "Spatial Temporal Asset Catalog (STAC)",
+      "path": "04-RESOURCES/Definitions/Spatial Temporal Asset Catalog (STAC).md"
+    },
+    {
+      "basename": "Resilient File System (ReFS)",
+      "path": "04-RESOURCES/Definitions/Resilient File System (ReFS).md"
+    },
+    {
+      "basename": "Functional Core Imperative Shell (FCIS)",
+      "path": "04-RESOURCES/Definitions/Functional Core Imperative Shell (FCIS).md"
+    },
+    {
+      "basename": "Representational State Transfer (REST)",
+      "path": "04-RESOURCES/Definitions/Representational State Transfer (REST).md"
+    },
+    {
+      "basename": "FlatGeoBuf (FGB)",
+      "path": "04-RESOURCES/Definitions/FlatGeoBuf (FGB).md"
+    },
+    {
+      "basename": "Common Portability Library (CPL)",
+      "path": "04-RESOURCES/Definitions/Common Portability Library (CPL).md"
+    },
+    {
+      "basename": "Application Programming Interface (API)",
+      "path": "04-RESOURCES/Definitions/Application Programming Interface (API).md"
+    },
+    {
+      "basename": "Application Binary Interface (ABI)",
+      "path": "04-RESOURCES/Definitions/Application Binary Interface (ABI).md"
+    },
+    {
+      "basename": "Anti-Corruption Layer (ACL)",
+      "path": "04-RESOURCES/Definitions/Anti-Corruption Layer (ACL).md"
+    },
+    {
+      "basename": "Template-Definition",
+      "path": "05-SYSTEM/Templates/Template-Definition.md"
+    },
+    {
+      "basename": "Template-Tool",
+      "path": "05-SYSTEM/Templates/Template-Tool.md"
+    },
+    {
+      "basename": "Template-Readme",
+      "path": "05-SYSTEM/Templates/Template-Readme.md"
+    },
+    {
+      "basename": "Template-List",
+      "path": "05-SYSTEM/Templates/Template-List.md"
+    },
+    {
+      "basename": "Skill - R httptest2",
+      "path": "00-INBOX/Skill - R httptest2.md"
+    },
+    {
+      "basename": "R - Data Utilities",
+      "path": "04-RESOURCES/Code/R/R - Data Utilities.md"
+    },
+    {
+      "basename": "R - Check Utilities",
+      "path": "04-RESOURCES/Code/R/R - Check Utilities.md"
+    },
+    {
+      "basename": "R - Base R Programming",
+      "path": "04-RESOURCES/Code/R/R - Base R Programming.md"
+    },
+    {
+      "basename": "R - coalesce_join()",
+      "path": "04-RESOURCES/Code/R/R - coalesce_join().md"
+    },
+    {
+      "basename": "R - check_data()",
+      "path": "04-RESOURCES/Code/R/R - check_data().md"
+    },
+    {
+      "basename": "R - System Utilities",
+      "path": "04-RESOURCES/Code/R/R - System Utilities.md"
+    },
+    {
+      "basename": "R - Base class() vs .class2()",
+      "path": "04-RESOURCES/Code/R/R - Base class() vs .class2().md"
+    },
+    {
+      "basename": "Clarification of CPU Processors Threads and Cores",
+      "path": "00-INBOX/Clarification of CPU Processors Threads and Cores.md"
+    },
+    {
+      "basename": "R - Conditions",
+      "path": "00-INBOX/R - Conditions.md"
+    },
+    {
+      "basename": "MOC - R",
+      "path": "03-AREAS/MOC - R.md"
+    },
+    {
+      "basename": "BASE",
+      "path": "99-ARCHIVES/BASE.base"
+    },
+    {
+      "basename": "Census Bureau TIGER Data Sources",
+      "path": "00-INBOX/Census Bureau TIGER Data Sources.md"
+    },
+    {
+      "basename": "GDAL Streaming Algorithm Format (GDALG)",
+      "path": "00-INBOX/GDAL Streaming Algorithm Format (GDALG).md"
     },
     {
       "basename": "R - S3",
@@ -15,18 +179,6 @@
     {
       "basename": "List - r-lib R Packages",
       "path": "04-RESOURCES/Lists/List - r-lib R Packages.md"
-    },
-    {
-      "basename": "R - ArcGIS GPServer API Client",
-      "path": "04-RESOURCES/Code/R/R - ArcGIS GPServer API Client.md"
-    },
-    {
-      "basename": "FlatGeoBuf (FGB)",
-      "path": "04-RESOURCES/Definitions/FlatGeoBuf (FGB).md"
-    },
-    {
-      "basename": "Guide - Optimizing Remotely Hosted FlatGeobufs",
-      "path": "04-RESOURCES/Guides/Guide - Optimizing Remotely Hosted FlatGeobufs.md"
     },
     {
       "basename": "MOC - Business",
@@ -45,160 +197,8 @@
       "path": "05-SYSTEM/Meta/TAGS.md"
     },
     {
-      "basename": "Template-Daily",
-      "path": "05-SYSTEM/Templates/Template-Daily.md"
-    },
-    {
-      "basename": "Template-Code",
-      "path": "05-SYSTEM/Templates/Template-Code.md"
-    },
-    {
       "basename": "JavaScript - Decode & Encode URI Components",
       "path": "04-RESOURCES/Code/JavaScript/JavaScript - Decode & Encode URI Components.md"
-    },
-    {
-      "basename": "JavaScript - Extract Links Bookmarklet",
-      "path": "04-RESOURCES/Code/JavaScript/JavaScript - Extract Links Bookmarklet.md"
-    },
-    {
-      "basename": "JavaScript - Capture R Shiny Websocket Messages",
-      "path": "04-RESOURCES/Code/JavaScript/JavaScript - Capture R Shiny Websocket Messages.md"
-    },
-    {
-      "basename": "JavaScript - Remove YouTube Watch Later Bookmarklet",
-      "path": "04-RESOURCES/Code/JavaScript/JavaScript - Remove YouTube Watch Later Bookmarklet.md"
-    },
-    {
-      "basename": "R - Proxying HTTP Requests & Responses",
-      "path": "00-INBOX/R - Proxying HTTP Requests & Responses.md"
-    },
-    {
-      "basename": "R - cli Package DSL",
-      "path": "00-INBOX/R - cli Package DSL.md"
-    },
-    {
-      "basename": "R - Package Development",
-      "path": "00-INBOX/R - Package Development.md"
-    },
-    {
-      "basename": "Common Portability Library (CPL)",
-      "path": "04-RESOURCES/Definitions/Common Portability Library (CPL).md"
-    },
-    {
-      "basename": "Functional Core Imperative Shell (FCIS)",
-      "path": "04-RESOURCES/Definitions/Functional Core Imperative Shell (FCIS).md"
-    },
-    {
-      "basename": "Representational State Transfer (REST)",
-      "path": "04-RESOURCES/Definitions/Representational State Transfer (REST).md"
-    },
-    {
-      "basename": "Application Programming Interface (API)",
-      "path": "04-RESOURCES/Definitions/Application Programming Interface (API).md"
-    },
-    {
-      "basename": "Application Binary Interface (ABI)",
-      "path": "04-RESOURCES/Definitions/Application Binary Interface (ABI).md"
-    },
-    {
-      "basename": "Anti-Corruption Layer (ACL)",
-      "path": "04-RESOURCES/Definitions/Anti-Corruption Layer (ACL).md"
-    },
-    {
-      "basename": "Spatial Temporal Asset Catalog (STAC)",
-      "path": "04-RESOURCES/Definitions/Spatial Temporal Asset Catalog (STAC).md"
-    },
-    {
-      "basename": "Template-Definition",
-      "path": "05-SYSTEM/Templates/Template-Definition.md"
-    },
-    {
-      "basename": "Resilient File System (ReFS)",
-      "path": "04-RESOURCES/Definitions/Resilient File System (ReFS).md"
-    },
-    {
-      "basename": "Template-Backmatter",
-      "path": "05-SYSTEM/Templates/Template-Backmatter.md"
-    },
-    {
-      "basename": "Template-Frontmatter",
-      "path": "05-SYSTEM/Templates/Template-Frontmatter.md"
-    },
-    {
-      "basename": "GDAL Driver Metadata",
-      "path": "00-INBOX/GDAL Driver Metadata.md"
-    },
-    {
-      "basename": "GDAL --optfile",
-      "path": "00-INBOX/GDAL --optfile.md"
-    },
-    {
-      "basename": "Browser Extensions",
-      "path": "00-INBOX/Browser Extensions.md"
-    },
-    {
-      "basename": "Guide - Best Practices for Distributing GeoParquet",
-      "path": "04-RESOURCES/Guides/Guide - Best Practices for Distributing GeoParquet.md"
-    },
-    {
-      "basename": "GDAL Vector Commands",
-      "path": "00-INBOX/GDAL Vector Commands.md"
-    },
-    {
-      "basename": "Guide - WSL2 Development Environment Setup",
-      "path": "04-RESOURCES/Guides/Guide - WSL2 Development Environment Setup.md"
-    },
-    {
-      "basename": "PowerShell - Get-BrowserInventory Script",
-      "path": "04-RESOURCES/Code/PowerShell/PowerShell - Get-BrowserInventory Script.md"
-    },
-    {
-      "basename": "List - PowerShell Modules",
-      "path": "04-RESOURCES/Lists/List - PowerShell Modules.md"
-    },
-    {
-      "basename": "Registry - Browser Extensions",
-      "path": "04-RESOURCES/Code/Registry/Registry - Browser Extensions.md"
-    },
-    {
-      "basename": "R - API Client Package Development",
-      "path": "00-INBOX/R - API Client Package Development.md"
-    },
-    {
-      "basename": "R - sf Extension Packages",
-      "path": "00-INBOX/R - sf Extension Packages.md"
-    },
-    {
-      "basename": "R - HTTP Testing",
-      "path": "00-INBOX/R - HTTP Testing.md"
-    },
-    {
-      "basename": "Functional Core Imperative Shell (FCIS)",
-      "path": "00-INBOX/Functional Core Imperative Shell (FCIS).md"
-    },
-    {
-      "basename": "List - Browser Extensions",
-      "path": "04-RESOURCES/Lists/List - Browser Extensions.md"
-    },
-    {
-      "basename": "PowerShell - Remove Ghost Devices",
-      "path": "04-RESOURCES/Code/PowerShell/PowerShell - Remove Ghost Devices.md"
-    },
-    {
-      "basename": "Registry - Custom Mouse Cursor",
-      "path": "04-RESOURCES/Code/Registry/Registry - Custom Mouse Cursor.md"
-    },
-    {
-      "basename": "Cmd - Fix Corrupted Recycle Bin",
-      "path": "04-RESOURCES/Code/Command Line/Cmd - Fix Corrupted Recycle Bin.md"
-    },
-    {
-      "basename": "Cmd - Attach Virtual Disk",
-      "path": "04-RESOURCES/Code/Command Line/Cmd - Attach Virtual Disk.md"
-    },
-    {
-      "basename": "PowerShell - Mount Virtual Disk",
-      "path": "00-INBOX/PowerShell - Mount Virtual Disk.md"
     }
   ],
   "omittedPaths": [],

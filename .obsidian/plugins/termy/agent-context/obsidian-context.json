@@ -1,12 +1,30 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-06-06T22:24:40.380Z",
-  "vaultRoot": "X:/obsidian/ObsidianVault",
+  "updatedAt": "2026-06-11T22:13:21.020Z",
+  "vaultRoot": "D:/obsidian/ObsidianVault",
   "workspaceFolders": [
-    "X:/obsidian/ObsidianVault"
+    "D:/obsidian/ObsidianVault"
   ],
-  "activeFile": null,
-  "openFiles": [],
+  "activeFile": {
+    "filePath": "D:\\obsidian\\ObsidianVault\\05-SYSTEM\\Templates\\Template-Guide.md",
+    "vaultPath": "05-SYSTEM/Templates/Template-Guide.md",
+    "fileUrl": "file:///D:/obsidian/ObsidianVault/05-SYSTEM/Templates/Template-Guide.md",
+    "hasFocus": false
+  },
+  "openFiles": [
+    {
+      "filePath": "D:\\obsidian\\ObsidianVault\\05-SYSTEM\\Templates\\Template-Code.md",
+      "vaultPath": "05-SYSTEM/Templates/Template-Code.md",
+      "fileUrl": "file:///D:/obsidian/ObsidianVault/05-SYSTEM/Templates/Template-Code.md",
+      "isActive": false
+    },
+    {
+      "filePath": "D:\\obsidian\\ObsidianVault\\05-SYSTEM\\Templates\\Template-Guide.md",
+      "vaultPath": "05-SYSTEM/Templates/Template-Guide.md",
+      "fileUrl": "file:///D:/obsidian/ObsidianVault/05-SYSTEM/Templates/Template-Guide.md",
+      "isActive": true
+    }
+  ],
   "selection": null
 }

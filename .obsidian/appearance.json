@@ -1,9 +1,10 @@
 {
-  "accentColor": "",
-  "cssTheme": "",
+  "accentColor": "#75f55c",
+  "cssTheme": "Dark Moss",
   "interfaceFontFamily": "Inter",
   "textFontFamily": "Inter",
   "monospaceFontFamily": "FiraCode Nerd Font",
   "baseFontSize": 14,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": []
 }
