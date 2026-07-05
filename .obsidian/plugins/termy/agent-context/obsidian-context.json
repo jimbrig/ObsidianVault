@@ -1,55 +1,24 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-06-11T22:31:14.030Z",
+  "updatedAt": "2026-07-05T18:07:15.224Z",
   "vaultRoot": "D:/obsidian/ObsidianVault",
   "workspaceFolders": [
     "D:/obsidian/ObsidianVault"
   ],
   "activeFile": {
-    "filePath": "D:\\obsidian\\ObsidianVault\\04-RESOURCES\\Code\\C\\C - Data Types.md",
-    "vaultPath": "04-RESOURCES/Code/C/C - Data Types.md",
-    "fileUrl": "file:///D:/obsidian/ObsidianVault/04-RESOURCES/Code/C/C%20-%20Data%20Types.md",
+    "filePath": "D:\\obsidian\\ObsidianVault\\00-INBOX\\Augmented Coding Patterns.md",
+    "vaultPath": "00-INBOX/Augmented Coding Patterns.md",
+    "fileUrl": "file:///D:/obsidian/ObsidianVault/00-INBOX/Augmented%20Coding%20Patterns.md",
     "hasFocus": false
   },
   "openFiles": [
     {
-      "filePath": "D:\\obsidian\\ObsidianVault\\05-SYSTEM\\Templates\\Template-Code.md",
-      "vaultPath": "05-SYSTEM/Templates/Template-Code.md",
-      "fileUrl": "file:///D:/obsidian/ObsidianVault/05-SYSTEM/Templates/Template-Code.md",
-      "isActive": false
-    },
-    {
-      "filePath": "D:\\obsidian\\ObsidianVault\\05-SYSTEM\\Templates\\Template-Guide.md",
-      "vaultPath": "05-SYSTEM/Templates/Template-Guide.md",
-      "fileUrl": "file:///D:/obsidian/ObsidianVault/05-SYSTEM/Templates/Template-Guide.md",
-      "isActive": false
-    },
-    {
-      "filePath": "D:\\obsidian\\ObsidianVault\\04-RESOURCES\\Code\\_inbox\\C\\C - Data Types.md",
-      "vaultPath": "04-RESOURCES/Code/_inbox/C/C - Data Types.md",
-      "fileUrl": "file:///D:/obsidian/ObsidianVault/04-RESOURCES/Code/_inbox/C/C%20-%20Data%20Types.md",
-      "isActive": false
-    },
-    {
-      "filePath": "D:\\obsidian\\ObsidianVault\\04-RESOURCES\\Code\\C\\C - Data Types.md",
-      "vaultPath": "04-RESOURCES/Code/C/C - Data Types.md",
-      "fileUrl": "file:///D:/obsidian/ObsidianVault/04-RESOURCES/Code/C/C%20-%20Data%20Types.md",
+      "filePath": "D:\\obsidian\\ObsidianVault\\00-INBOX\\Augmented Coding Patterns.md",
+      "vaultPath": "00-INBOX/Augmented Coding Patterns.md",
+      "fileUrl": "file:///D:/obsidian/ObsidianVault/00-INBOX/Augmented%20Coding%20Patterns.md",
       "isActive": true
     }
   ],
-  "selection": {
-    "text": "",
-    "isEmpty": true,
-    "from": {
-      "line": 28,
-      "ch": 26,
-      "offset": 480
-    },
-    "to": {
-      "line": 28,
-      "ch": 26,
-      "offset": 480
-    }
-  }
+  "selection": null
 }

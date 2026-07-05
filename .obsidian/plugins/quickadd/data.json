@@ -3,14 +3,19 @@
   "inputPrompt": "single-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,
+  "searchNestedChoices": true,
+  "templateFolderLauncherRow": "bottom",
   "devMode": false,
-  "templateFolderPath": "",
+  "templateFolderPaths": [
+    "05-SYSTEM/Templates"
+  ],
   "announceUpdates": "major",
-  "version": "2.12.3",
+  "version": "2.14.1",
   "globalVariables": {},
   "onePageInputEnabled": false,
-  "disableOnlineFeatures": true,
-  "enableRibbonIcon": false,
+  "disableOnlineFeatures": false,
+  "enableUriCallbacks": true,
+  "enableRibbonIcon": true,
   "showCaptureNotification": true,
   "showInputCancellationNotification": false,
   "enableTemplatePropertyTypes": false,
@@ -112,7 +117,8 @@
     "setProviderModelDiscoveryMode": true,
     "migrateProviderApiKeysToSecretStorage": true,
     "consolidateFileExistsBehavior": true,
-    "repairTemplateFileExistsBehavior": true
+    "repairTemplateFileExistsBehavior": true,
+    "migrateToMultipleTemplateFolders": true
   },
   "macros": []
 }

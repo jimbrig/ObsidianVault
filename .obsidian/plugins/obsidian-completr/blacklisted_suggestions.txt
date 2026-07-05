@@ -2,3 +2,17 @@ note
 Note
 Code
 R
+DuckDB
+REAPI
+GPKG
+gpkg
+GDALG
+Go Code
+GeoRust
+Geospatial
+GeoPackage
+Type/MOC
+Type/ef
+Sedona
+TYPES
+R - S3

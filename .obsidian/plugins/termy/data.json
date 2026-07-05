@@ -16,7 +16,7 @@
   "focusNewInstance": true,
   "lockNewInstance": false,
   "fontSize": 12,
-  "fontFamily": "Consolas, \"Courier New\", monospace",
+  "fontFamily": "CaskaydiaCove Nerd Font, Consolas, \"Courier New\", monospace",
   "cursorStyle": "block",
   "cursorBlink": true,
   "useObsidianTheme": true,
@@ -40,6 +40,24 @@
     "offlineMode": false
   },
   "presetScripts": [
+    {
+      "id": "preset-1779032147909-tbmtnq",
+      "name": "Cursor",
+      "icon": "folder-open",
+      "actions": [
+        {
+          "id": "action-1779032188957-0uagxx",
+          "type": "terminal-command",
+          "value": "cursor .",
+          "enabled": true,
+          "note": "Launch Cursor in the current Vault's folder"
+        }
+      ],
+      "terminalTitle": "",
+      "showInStatusBar": true,
+      "autoOpenTerminal": true,
+      "runInNewTerminal": true
+    },
     {
       "id": "claude-code",
       "name": "Claude Code",
@@ -115,24 +133,6 @@
         }
       ],
       "terminalTitle": "Gemini CLI",
-      "showInStatusBar": true,
-      "autoOpenTerminal": true,
-      "runInNewTerminal": false
-    },
-    {
-      "id": "preset-1779032147909-tbmtnq",
-      "name": "Cursor",
-      "icon": "folder-open",
-      "actions": [
-        {
-          "id": "action-1779032188957-0uagxx",
-          "type": "terminal-command",
-          "value": "cursor .",
-          "enabled": true,
-          "note": "Launch Cursor in the current Vault's folder"
-        }
-      ],
-      "terminalTitle": "",
       "showInStatusBar": true,
       "autoOpenTerminal": true,
       "runInNewTerminal": false

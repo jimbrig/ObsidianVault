@@ -1,200 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "C - Data Types",
-      "path": "04-RESOURCES/Code/C/C - Data Types.md"
+      "basename": "Augmented Coding Patterns",
+      "path": "00-INBOX/Augmented Coding Patterns.md"
     },
     {
-      "basename": "C - Data Types",
-      "path": "04-RESOURCES/Code/_inbox/C/C - Data Types.md"
+      "basename": "Patterns for Coding with AI",
+      "path": "00-INBOX/Patterns for Coding with AI.md"
     },
     {
-      "basename": "Template-Guide",
-      "path": "05-SYSTEM/Templates/Template-Guide.md"
+      "basename": "2026-07-05",
+      "path": "02-JOURNAL/2026/05-May/2026-07-05.md"
     },
     {
-      "basename": "R - ArcGIS PBF",
-      "path": "04-RESOURCES/Code/R/R - ArcGIS PBF.md"
+      "basename": "2026-07-03",
+      "path": "02-JOURNAL/2026/05-May/2026-07-03.md"
     },
     {
-      "basename": "Template-Code",
-      "path": "05-SYSTEM/Templates/Template-Code.md"
+      "basename": "Checklist - Real Estate Due Diligence",
+      "path": "04-RESOURCES/Checklists/Checklist - Real Estate Due Diligence.md"
     },
     {
-      "basename": "AGENTS",
-      "path": "AGENTS.md"
+      "basename": "R - Async JSON API with plumber2 mirai and S7",
+      "path": "04-RESOURCES/Code/R/R - Async JSON API with plumber2 mirai and S7.md"
     },
     {
-      "basename": "LandRise Map Layers",
-      "path": "00-INBOX/LandRise Map Layers.md"
+      "basename": "R - HTTP Streaming & Server-Sent Events (SSE) with nanonext",
+      "path": "04-RESOURCES/Code/R/R - HTTP Streaming & Server-Sent Events (SSE) with nanonext.md"
     },
     {
-      "basename": "2026-06-10",
-      "path": "02-JOURNAL/2026/06-June/2026-06-10.md"
+      "basename": "Glossary - Real Estate Development",
+      "path": "04-RESOURCES/Glossaries/Glossary - Real Estate Development.md"
     },
     {
-      "basename": "Template-Daily",
-      "path": "05-SYSTEM/Templates/Template-Daily.md"
+      "basename": "Due Diligence (Real Estate)",
+      "path": "04-RESOURCES/Definitions/Due Diligence (Real Estate).md"
     },
     {
-      "basename": "Land Suitability Evaluation Example",
-      "path": "00-INBOX/Land Suitability Evaluation Example.md"
+      "basename": "Debt Service Coverage Ratio (DSCR)",
+      "path": "04-RESOURCES/Definitions/Debt Service Coverage Ratio (DSCR).md"
     },
     {
-      "basename": "GDAL - Vector Driver Configuration Options",
-      "path": "00-INBOX/GDAL - Vector Driver Configuration Options.md"
+      "basename": "Conditional Use Permit (CUP)",
+      "path": "04-RESOURCES/Definitions/Conditional Use Permit (CUP).md"
     },
     {
-      "basename": "GDAL Driver Metadata",
-      "path": "00-INBOX/GDAL Driver Metadata.md"
+      "basename": "Capitalization Rate (Cap Rate)",
+      "path": "04-RESOURCES/Definitions/Capitalization Rate (Cap Rate).md"
     },
     {
-      "basename": "GDAL Configuration",
-      "path": "00-INBOX/GDAL Configuration.md"
+      "basename": "NSPS Land Title Survey",
+      "path": "04-RESOURCES/Definitions/NSPS Land Title Survey.md"
     },
     {
-      "basename": "Guide - ArcGIS REST API",
-      "path": "04-RESOURCES/Guides/Guide - ArcGIS REST API.md"
+      "basename": "Absorption Rate (Real Estate)",
+      "path": "04-RESOURCES/Definitions/Absorption Rate (Real Estate).md"
     },
     {
-      "basename": "R - ArcGIS GPServer API Client",
-      "path": "04-RESOURCES/Code/R/R - ArcGIS GPServer API Client.md"
+      "basename": "Entitlement (Land Development)",
+      "path": "04-RESOURCES/Definitions/Entitlement (Land Development).md"
     },
     {
-      "basename": "Guide - WSL2 Development Environment Setup",
-      "path": "04-RESOURCES/Guides/Guide - WSL2 Development Environment Setup.md"
+      "basename": "National Society of Professional Surveyors (NSPS)",
+      "path": "04-RESOURCES/Definitions/National Society of Professional Surveyors (NSPS).md"
     },
     {
-      "basename": "Guide - Optimizing Remotely Hosted FlatGeobufs",
-      "path": "04-RESOURCES/Guides/Guide - Optimizing Remotely Hosted FlatGeobufs.md"
+      "basename": "American Land Title Association (ALTA)",
+      "path": "04-RESOURCES/Definitions/American Land Title Association (ALTA).md"
     },
     {
-      "basename": "Guide - Best Practices for Distributing GeoParquet",
-      "path": "04-RESOURCES/Guides/Guide - Best Practices for Distributing GeoParquet.md"
+      "basename": "JavaScript - Add Geolocation Control Integration to Leaflet",
+      "path": "04-RESOURCES/Code/JavaScript/JavaScript - Add Geolocation Control Integration to Leaflet.md"
     },
     {
-      "basename": "Spatial Temporal Asset Catalog (STAC)",
-      "path": "04-RESOURCES/Definitions/Spatial Temporal Asset Catalog (STAC).md"
-    },
-    {
-      "basename": "Resilient File System (ReFS)",
-      "path": "04-RESOURCES/Definitions/Resilient File System (ReFS).md"
-    },
-    {
-      "basename": "Functional Core Imperative Shell (FCIS)",
-      "path": "04-RESOURCES/Definitions/Functional Core Imperative Shell (FCIS).md"
-    },
-    {
-      "basename": "Representational State Transfer (REST)",
-      "path": "04-RESOURCES/Definitions/Representational State Transfer (REST).md"
-    },
-    {
-      "basename": "FlatGeoBuf (FGB)",
-      "path": "04-RESOURCES/Definitions/FlatGeoBuf (FGB).md"
-    },
-    {
-      "basename": "Common Portability Library (CPL)",
-      "path": "04-RESOURCES/Definitions/Common Portability Library (CPL).md"
-    },
-    {
-      "basename": "Application Programming Interface (API)",
-      "path": "04-RESOURCES/Definitions/Application Programming Interface (API).md"
-    },
-    {
-      "basename": "Application Binary Interface (ABI)",
-      "path": "04-RESOURCES/Definitions/Application Binary Interface (ABI).md"
-    },
-    {
-      "basename": "Anti-Corruption Layer (ACL)",
-      "path": "04-RESOURCES/Definitions/Anti-Corruption Layer (ACL).md"
-    },
-    {
-      "basename": "Template-Definition",
-      "path": "05-SYSTEM/Templates/Template-Definition.md"
-    },
-    {
-      "basename": "Template-Tool",
-      "path": "05-SYSTEM/Templates/Template-Tool.md"
-    },
-    {
-      "basename": "Template-Readme",
-      "path": "05-SYSTEM/Templates/Template-Readme.md"
-    },
-    {
-      "basename": "Template-List",
-      "path": "05-SYSTEM/Templates/Template-List.md"
+      "basename": "Untitled",
+      "path": "00-INBOX/Untitled.md"
     },
     {
       "basename": "Skill - R httptest2",
       "path": "00-INBOX/Skill - R httptest2.md"
     },
     {
-      "basename": "R - Data Utilities",
-      "path": "04-RESOURCES/Code/R/R - Data Utilities.md"
-    },
-    {
-      "basename": "R - Check Utilities",
-      "path": "04-RESOURCES/Code/R/R - Check Utilities.md"
-    },
-    {
-      "basename": "R - Base R Programming",
-      "path": "04-RESOURCES/Code/R/R - Base R Programming.md"
-    },
-    {
-      "basename": "R - coalesce_join()",
-      "path": "04-RESOURCES/Code/R/R - coalesce_join().md"
-    },
-    {
-      "basename": "R - check_data()",
-      "path": "04-RESOURCES/Code/R/R - check_data().md"
-    },
-    {
-      "basename": "R - System Utilities",
-      "path": "04-RESOURCES/Code/R/R - System Utilities.md"
-    },
-    {
-      "basename": "R - Base class() vs .class2()",
-      "path": "04-RESOURCES/Code/R/R - Base class() vs .class2().md"
-    },
-    {
-      "basename": "Clarification of CPU Processors Threads and Cores",
-      "path": "00-INBOX/Clarification of CPU Processors Threads and Cores.md"
-    },
-    {
-      "basename": "R - Conditions",
-      "path": "00-INBOX/R - Conditions.md"
-    },
-    {
-      "basename": "MOC - R",
-      "path": "03-AREAS/MOC - R.md"
-    },
-    {
-      "basename": "BASE",
-      "path": "99-ARCHIVES/BASE.base"
-    },
-    {
-      "basename": "Census Bureau TIGER Data Sources",
-      "path": "00-INBOX/Census Bureau TIGER Data Sources.md"
-    },
-    {
-      "basename": "GDAL Streaming Algorithm Format (GDALG)",
-      "path": "00-INBOX/GDAL Streaming Algorithm Format (GDALG).md"
+      "basename": "2026-06-30",
+      "path": "02-JOURNAL/2026/05-May/2026-06-30.md"
     },
     {
       "basename": "R - S3",
       "path": "00-INBOX/R - S3.md"
     },
     {
-      "basename": "List - r-lib R Packages",
-      "path": "04-RESOURCES/Lists/List - r-lib R Packages.md"
+      "basename": "Clarification of CPU Processors Threads and Cores",
+      "path": "00-INBOX/Clarification of CPU Processors Threads and Cores.md"
     },
     {
-      "basename": "MOC - Business",
-      "path": "03-AREAS/MOC - Business.md"
+      "basename": "Browser Extensions",
+      "path": "00-INBOX/Browser Extensions.md"
     },
     {
-      "basename": "MOC - Artificial Intelligence",
-      "path": "03-AREAS/MOC - Artificial Intelligence.md"
+      "basename": "2026-07-01",
+      "path": "02-JOURNAL/2026/05-May/2026-07-01.md"
+    },
+    {
+      "basename": "Project - USA Parcels SDI",
+      "path": "00-INBOX/Project - USA Parcels SDI.md"
+    },
+    {
+      "basename": "Spatial Data Infrastructure (SDI)",
+      "path": "04-RESOURCES/Definitions/Spatial Data Infrastructure (SDI).md"
+    },
+    {
+      "basename": "GeoArrow",
+      "path": "04-RESOURCES/Definitions/GeoArrow.md"
+    },
+    {
+      "basename": "RStudio",
+      "path": "00-INBOX/RStudio.md"
+    },
+    {
+      "basename": "Template-Definition",
+      "path": "05-SYSTEM/Templates/Template-Definition.md"
+    },
+    {
+      "basename": "Bounding Box (BBOX)",
+      "path": "04-RESOURCES/Definitions/Bounding Box (BBOX).md"
+    },
+    {
+      "basename": "American Community Survey (ACS)",
+      "path": "04-RESOURCES/Definitions/American Community Survey (ACS).md"
+    },
+    {
+      "basename": "Census Block Group (BG)",
+      "path": "04-RESOURCES/Definitions/Census Block Group (BG).md"
+    },
+    {
+      "basename": "Binary Large Object (BLOB)",
+      "path": "04-RESOURCES/Definitions/Binary Large Object (BLOB).md"
+    },
+    {
+      "basename": "Association of American Geographers (AAG)",
+      "path": "04-RESOURCES/Definitions/Association of American Geographers (AAG).md"
+    },
+    {
+      "basename": "Anti-Corruption Layer (ACL)",
+      "path": "04-RESOURCES/Definitions/Anti-Corruption Layer (ACL).md"
+    },
+    {
+      "basename": "GDAL Streaming Algorithm Format (GDALG)",
+      "path": "04-RESOURCES/Definitions/GDAL Streaming Algorithm Format (GDALG).md"
+    },
+    {
+      "basename": "Functional Core Imperative Shell (FCIS)",
+      "path": "04-RESOURCES/Definitions/Functional Core Imperative Shell (FCIS).md"
+    },
+    {
+      "basename": "MOC - Geospatial",
+      "path": "03-AREAS/MOC - Geospatial.md"
+    },
+    {
+      "basename": "Directed Acyclic Graph (DAG)",
+      "path": "04-RESOURCES/Definitions/Directed Acyclic Graph (DAG).md"
+    },
+    {
+      "basename": "Geographic Information Systems (GIS)",
+      "path": "04-RESOURCES/Definitions/Geographic Information Systems (GIS).md"
+    },
+    {
+      "basename": "List - STAC Extensions",
+      "path": "00-INBOX/List - STAC Extensions.md"
+    },
+    {
+      "basename": "ZSTD Compression",
+      "path": "00-INBOX/ZSTD Compression.md"
+    },
+    {
+      "basename": "GDAL - Large GeoPackage to FlatGeoBuf Pipeline",
+      "path": "00-INBOX/GDAL - Large GeoPackage to FlatGeoBuf Pipeline.md"
+    },
+    {
+      "basename": "GDAL Configuration",
+      "path": "00-INBOX/GDAL Configuration.md"
+    },
+    {
+      "basename": "R Package - sysreqR",
+      "path": "04-RESOURCES/Tools/R Packages/R Package - sysreqR.md"
+    },
+    {
+      "basename": "GDAL Driver Parquet Create Metadata File",
+      "path": "00-INBOX/GDAL Driver Parquet Create Metadata File.md"
+    },
+    {
+      "basename": "GeoParquet 2.0 & GDAL 3.13",
+      "path": "00-INBOX/GeoParquet 2.0 & GDAL 3.13.md"
+    },
+    {
+      "basename": "List - GeoParquet Tools",
+      "path": "00-INBOX/List - GeoParquet Tools.md"
+    },
+    {
+      "basename": "GDAL GeoParquet",
+      "path": "00-INBOX/GDAL GeoParquet.md"
     }
   ],
   "omittedPaths": [],
