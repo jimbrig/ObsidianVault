@@ -112,7 +112,51 @@ TODO
 > [!NOTE]
 > Topic tags are the fabric of the categorization and coverage across multiple interrelated domains across the vault.
 
-TODO
+Topic tags are managed and curated, not invented ad hoc per note. Prefer combining several broad, reusable topic tags over creating one-off compound tags.
+
+For example, prefer:
+
+```yaml
+tags:
+  - Topic/R
+  - Topic/Geospatial
+  - Topic/Development
+  - Topic/DataEngineering
+```
+
+over:
+
+```yaml
+tags:
+  - Topic/GeoParquetR
+```
+
+### Current Common Topic Tags
+
+This list is not exhaustive, but represents common managed topics already used across the vault:
+
+| Tag | Use For |
+| --- | --- |
+| `Topic/R` | R language, packages, scripts, package development |
+| `Topic/Geospatial` | GIS, spatial data, GeoParquet, GDAL, spatial analysis |
+| `Topic/Development` | General software development and implementation notes |
+| `Topic/DataEngineering` | Data pipelines, file formats, storage, ETL/ELT |
+| `Topic/DataScience` | Statistical computing, analytics, modeling, notebooks |
+| `Topic/API` | API design, clients, integrations, REST/GraphQL |
+| `Topic/GDAL` | GDAL-specific notes and workflows |
+| `Topic/Tools` | Software tools, utilities, and tool evaluations |
+| `Topic/AI` | AI tools, LLMs, prompts, agents, model workflows |
+| `Topic/Obsidian` | Obsidian vault systems, plugins, and workflows |
+| `Topic/PKM` | Personal knowledge management methods and systems |
+| `Topic/PowerShell` | PowerShell scripts and Windows automation |
+| `Topic/Python` | Python language and ecosystem |
+| `Topic/JavaScript` | JavaScript language and ecosystem |
+| `Topic/Rust` | Rust language and ecosystem |
+| `Topic/SQL` | SQL queries, databases, and relational modeling |
+| `Topic/Cloud` | Cloud platforms and cloud-native services |
+| `Topic/Azure` | Microsoft Azure-specific notes |
+
+When clipping or generating notes with AI, instruct the model to choose only from managed topic tags. New topic tags should be introduced deliberately during vault grooming, not opportunistically during capture.
 
 
 ***

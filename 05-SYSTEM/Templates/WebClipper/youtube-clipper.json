@@ -1,0 +1,63 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "YouTube",
+	"behavior": "create",
+	"noteContentFormat": "![{{schema:name}}]({{url}})",
+	"properties": [
+		{
+			"name": "creation_date",
+			"value": "[[{{date|date:\\\"YYYY-MM-DD\\\"}}]]",
+			"type": "date"
+		},
+		{
+			"name": "modification_date",
+			"value": "[[{{date|date:\\\"YYYY-MM-DD\\\"}}]]",
+			"type": "date"
+		},
+		{
+			"name": "publication_date",
+			"value": "{{schema:uploadDate|date:YYYY-MM-DD}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{schema:author|wikilink}}",
+			"type": "text"
+		},
+		{
+			"name": "title",
+			"value": "{{schema:name}}",
+			"type": "text"
+		},
+		{
+			"name": "description",
+			"value": "{{description}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "[Type/WebClip, Type/Video, Status/NA, Topic/{{topic}}]",
+			"type": "multitext"
+		},
+		{
+			"name": "aliases",
+			"value": "[{{title}}, {{title}} Video]",
+			"type": "multitext"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "image",
+			"value": "{{schema:thumbnailUrl|slice:0}}",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://www.youtube.com/watch?v="
+	],
+	"noteNameFormat": "YouTube - {{date|date:\"YYYY-MM-DD\"}} - {{title}}",
+	"path": "04-RESOURCES/Integrations/YouTube"
+}

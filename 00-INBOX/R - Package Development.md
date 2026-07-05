@@ -34,7 +34,7 @@ includeLinks: true
 ### Functional Core Imperative Shell
 
 > [!NOTE]
-> *See [[00-INBOX/Functional Core Imperative Shell (FCIS)]]*
+> *See [[Functional Core Imperative Shell (FCIS)]]*
 
 ### Thematic vs. Arbitrary Function Organization
 

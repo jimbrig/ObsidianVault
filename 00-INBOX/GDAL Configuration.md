@@ -1,6 +1,6 @@
 ---
 creation_date: 2026-06-05
-modification_date: 2026-06-05
+modification_date: 2026-06-18T19:02:51-04:00
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 description: GDAL Configuration
 tags:

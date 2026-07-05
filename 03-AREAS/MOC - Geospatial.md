@@ -1,6 +1,6 @@
 ---
 creation_date: 2026-05-17
-modification_date: 2026-05-17
+modification_date: 2026-06-25T12:06:43-04:00
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 description: Map of content for Geospatial
 tags:
@@ -28,7 +28,7 @@ includeLinks: true
 
 ## Overview
 
-Map of Content for various topics associated with **Geospatial** or **[[Geographic Information Systems (GIS)|GIS]]** covering concepts like spatial data management, analysis, visualization, standards, and tooling.
+Map of Content for various topics associated with **Geospatial Technologies** or **[[Geographic Information Systems (GIS)|GIS]]** covering concepts like spatial data management, analysis, visualization, standards, and tooling.
 
 ## Notes
 

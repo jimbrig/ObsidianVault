@@ -1,0 +1,10 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "GitHub (Daily)",
+	"behavior": "append-daily",
+	"noteContentFormat": "### [{{title}}]({{url}})\n\n{{\"a paragraph summarizing the GitHub repository's codebase\"|blockquote}}\n",
+	"properties": [],
+	"triggers": [
+		"https://github.com/"
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Default",
+	"behavior": "create",
+	"noteContentFormat": "# {{title}}\n\n> [!SOURCE] Source:\n> [{{title}}]({{url}})\n\n```table-of-contents\ntitle: ## Contents\nstyle: nestedList\nminLevel: 2\nmaxLevel: 4\nincludeLinks: true\n```\n\n## Content\n\n{{content}}\n\n***\n\n## Appendix\n\n*Note created via [[Obsidian Web Clipper]] on [[{{date|date:\"YYYY-MM-DD\"}}]].*\n\n### See Also\n\n- [[04-RESOURCES/Integrations/Clippings/_README|Web Clips]]\n\n### Backlinks\n\n```dataview\nLIST FROM [[{{title}}]] \nWHERE file.name != \"_README\" AND file.name != this.file.name AND file.name != \"CHANGELOG\"\n```\n\n***\n\n(c) [No Clocks, LLC](https://github.com/noclocks) | 2025",
+	"properties": [
+		{
+			"name": "creation_date",
+			"value": "[[{{date|date:\\\"YYYY-MM-DD\\\"}}]]",
+			"type": "date"
+		},
+		{
+			"name": "modification_date",
+			"value": "[[{{date|date:\\\"YYYY-MM-DD\\\"}}]]",
+			"type": "date"
+		},
+		{
+			"name": "publication_date",
+			"value": "[[{{published|date:\\\"YYYY-MM-DD\\\"}}]]",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author|split:\\\", \\\"|join}}",
+			"type": "text"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "description",
+			"value": "{{description}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "[\\\"Type/WebClip\\\", \\\"Status/NA\\\", \\\"Topic/{{topic}}\\\"]",
+			"type": "multitext"
+		},
+		{
+			"name": "aliases",
+			"value": "[\\\"{{title}}\\\"]",
+			"type": "multitext"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "image",
+			"value": "{{image}}",
+			"type": "text"
+		}
+	],
+	"triggers": [],
+	"noteNameFormat": "WebClip - {{date|date:\"YYYY-MM-DD\"}} - {{title}}",
+	"path": "04-RESOURCES/Integrations/Clippings"
+}

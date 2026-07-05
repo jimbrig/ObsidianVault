@@ -1,0 +1,60 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Perplexity",
+	"behavior": "create",
+	"noteContentFormat": "# {{\"a concise, human-readable title for this Perplexity chat, 6-10 words, title case, no ending punctuation\"}}\n\n> [!SOURCE] Source:\n> [Perplexity Chat]({{url}})\n\n```table-of-contents\ntitle: ## Contents\nstyle: nestedList\nminLevel: 2\nmaxLevel: 4\nincludeLinks: true\n```\n\n## Original Question\n\n> {{selector:main [role='heading']|first}}\n\n## Synthesis\n\n{{\"synthesize this Perplexity chat into a polished vault note. Do not reproduce the transcript verbatim. Focus on the durable insight, final corrected conclusions, and practical takeaways. Ignore UI text, source badges, follow-up suggestions, repeated drafts, and superseded or corrected assumptions. Write 3-5 concise paragraphs.\"}}\n\n## Key Takeaways\n\n{{\"extract the durable key takeaways from this Perplexity chat as 6-10 concise bullets. Keep only final corrected conclusions, not intermediate or superseded drafts.\"}}\n\n## Implementation Notes\n\n{{\"extract the practical implementation guidance from this Perplexity chat. Organize it into concise bullets grouped by theme. Preserve important package names, function names, data structures, field names, and gotchas. Do not include long raw code blocks unless a short snippet is essential.\"}}\n\n## Corrections And Caveats\n\n{{\"list the important corrections, caveats, and assumptions that emerged over the conversation. Focus on what earlier answers got wrong, what the actual data structures showed, and what should be verified before reuse.\"}}\n\n## Reusable Artifacts\n\n{{\"extract any reusable artifacts from this Perplexity chat, such as function names, helper patterns, package combinations, or implementation checklists. Prefer concise pseudocode or short snippets over full transcript code.\"}}\n\n## Follow Up\n\n{{\"suggest 3-6 useful next actions or follow-up questions based on this Perplexity chat, phrased as actionable vault notes or project tasks.\"}}\n\n***\n\n## Appendix\n\n*Note created via [[Obsidian Web Clipper]] on [[{{date|date:\"YYYY-MM-DD\"}}]] and last modified on [[{{date|date:\"YYYY-MM-DD\"}}]].*\n\n### See Also\n\n***\n\n(c) Jimmy Briggs <jimmy.briggs@jimbrig.com> | {{date|date:\"YYYY\"}}",
+	"properties": [
+		{
+			"name": "creation_date",
+			"value": "[[{{date|date:\\\"YYYY-MM-DD\\\"}}]]",
+			"type": "date"
+		},
+		{
+			"name": "modification_date",
+			"value": "[[{{date|date:\\\"YYYY-MM-DD\\\"}}]]",
+			"type": "date"
+		},
+		{
+			"name": "author",
+			"value": "Perplexity",
+			"type": "text"
+		},
+		{
+			"name": "title",
+			"value": "{{\"a concise, human-readable title for this Perplexity chat, 6-10 words, title case, no ending punctuation\"}}",
+			"type": "text"
+		},
+		{
+			"name": "description",
+			"value": "{{\"a concise 1-2 sentence summary of this Perplexity chat\"}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "{{\"return a JSON array of exact vault tags for this Perplexity chat. Always include Type/WebClip, Type/Chat, and Status/NA. Then choose 2-5 Topic tags only from this managed allowlist: Topic/R, Topic/Geospatial, Topic/Development, Topic/DataEngineering, Topic/DataScience, Topic/API, Topic/GDAL, Topic/Tools, Topic/AI, Topic/Obsidian, Topic/PKM, Topic/Windows, Topic/PowerShell, Topic/Python, Topic/JavaScript, Topic/Rust, Topic/SQL, Topic/Cloud, Topic/Azure. Do not invent new tags. Return only the JSON array, no markdown.\"}}",
+			"type": "multitext"
+		},
+		{
+			"name": "aliases",
+			"value": "[\\\"{{\\\"a concise, human-readable title for this Perplexity chat, 6-10 words, title case, no ending punctuation\\\"}}\\\", \\\"{{selector:main [role='heading']|first}}\\\"]",
+			"type": "multitext"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "image",
+			"value": "{{image}}",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://www.perplexity.ai/search",
+		"https://perplexity.ai/search"
+	],
+	"noteNameFormat": "Perplexity - {{date|date:\"YYYY-MM-DD\"}} - {{\"a concise, human-readable title for this Perplexity chat, 6-10 words, title case, no ending punctuation\"|safe_name:windows}}",
+	"path": "04-RESOURCES/WebClips/Perplexity",
+	"context": "{{selectorHtml:main [class*=\"max-w-threadContentWidth\"] [class*=\"flex flex-col gap-md\"]|remove_html:\"button,img\"|join:\"\\n\\n---\\n\\n\"}}"
+}

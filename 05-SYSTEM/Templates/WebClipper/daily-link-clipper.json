@@ -1,0 +1,8 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Daily Link",
+  "behavior": "prepend-daily",
+  "noteContentFormat": "- [{{title}}]({{url}}): {{\"1-2 sentence summary of the current web page content\"}}",
+  "properties": [],
+  "triggers": []
+}

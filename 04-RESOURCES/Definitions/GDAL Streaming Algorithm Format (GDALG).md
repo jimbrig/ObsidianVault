@@ -1,10 +1,11 @@
 ---
 creation_date: 2026-06-06
-modification_date: 2026-06-06
+modification_date: 2026-06-25T12:09:49-04:00
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 description: GDAL Streaming Algorithm Format (GDALG)
 tags:
   - Type/Reference
+  - Type/Definition
   - Status/WIP
   - Topic/Geospatial
   - Topic/Development

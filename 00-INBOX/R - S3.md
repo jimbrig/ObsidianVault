@@ -1,6 +1,6 @@
 ---
 creation_date: 2026-06-06
-modification_date: 2026-06-06
+modification_date: 2026-06-12T18:09:28-04:00
 author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 description: R - S3
 tags:
@@ -97,6 +97,47 @@ sloop::ftype(format)
 sloop::ftype(unclass)
 ```
 
+## `format` & `print`
+
+- Separate `format()` from `print()`, where `format()` produces the character vector and `print()` emits it to the console. This allows other tools to capture the formatted output.
+- Use `cli::cli_format_method()` in `format` method
+- Use `...` in both signatures to allow for downstream `NextMethod()` calls
+- Invisibly return `x` in `print()` so assignments don't re-print.
+ 
+```R
+#' @keywords internal
+#' @noRd
+#' @export
+format.gdalg <- function(x, ...) {
+
+  cmd_display <- if (nchar(x$command_line) > 70L) {
+    paste0(strtrim(x$command_line, 67), "...")
+  } else {
+    x$command_line
+  }
+
+  cli::cli_format_method({
+    cli::cli_rule(left = "{.cls {class(x)[[1]]}}", right = "GDAL Streamed Algorithm (GDALG)")
+    cli::cli_ul(
+      c(
+        "Type: {.strong {x$type}}",
+        "GDAL Version: {.field {x$gdal_version}}",
+        "Relative Paths: {.field {x$relative_paths_relative_to_this_file}}",
+        "Command: {.code {cmd_display}}"
+      )
+    )
+  })
+
+}
+
+#' @keywords internal
+#' @noRd
+#' @export
+print.gdalg <- function(x, ...) {
+  cat(format(x, ...), sep = "\n")
+  invisible(x)
+}
+```
 
 ***
 

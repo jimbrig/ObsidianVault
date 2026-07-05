@@ -1,5 +1,4 @@
 {
-  "Assembly": { "fence": "asm" },
   "C#": { "fence": "csharp", "topic": "CSharp" },
   "C++": { "fence": "cpp", "topic": "CPlusPlus" },
   "Command Line": { "fence": "bash", "topic": "CommandLine" },
