@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Perplexity - 2026-07-05 - Optimizing GeoParquet Creation with GDAL for SDI",
+      "path": "04-RESOURCES/WebClips/Perplexity/Perplexity - 2026-07-05 - Optimizing GeoParquet Creation with GDAL for SDI.md"
+    },
+    {
+      "basename": "R - rcloner Package Setup",
+      "path": "04-RESOURCES/Code/R/R - rcloner Package Setup.md"
+    },
+    {
       "basename": "Augmented Coding Patterns",
       "path": "00-INBOX/Augmented Coding Patterns.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "GeoParquet 2.0 & GDAL 3.13",
       "path": "00-INBOX/GeoParquet 2.0 & GDAL 3.13.md"
-    },
-    {
-      "basename": "List - GeoParquet Tools",
-      "path": "00-INBOX/List - GeoParquet Tools.md"
-    },
-    {
-      "basename": "GDAL GeoParquet",
-      "path": "00-INBOX/GDAL GeoParquet.md"
     }
   ],
   "omittedPaths": [],
