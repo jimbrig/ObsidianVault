@@ -76,9 +76,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
-
-
 # Ignore Smart Connections folder
 .smart-connections
 
@@ -87,3 +84,7 @@ Temporary Items
 
 # Quartz submodule (handled separately)
 quartz/
+
+# code inbox
+04-RESOURCES/Code/_inbox/
+04-RESOURCES/Code/_inbox/**
