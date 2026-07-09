@@ -1,6 +1,158 @@
 {
   "recentFiles": [
     {
+      "basename": "List - Browser Extensions",
+      "path": "04-RESOURCES/Lists/List - Browser Extensions.md"
+    },
+    {
+      "basename": "Template-MOC",
+      "path": "05-SYSTEM/Templates/Template-MOC.md"
+    },
+    {
+      "basename": "Template-List",
+      "path": "05-SYSTEM/Templates/Template-List.md"
+    },
+    {
+      "basename": "List - Federal Geospatial Data Sources",
+      "path": "04-RESOURCES/Lists/List - Federal Geospatial Data Sources.md"
+    },
+    {
+      "basename": "Template-Definition",
+      "path": "05-SYSTEM/Templates/Template-Definition.md"
+    },
+    {
+      "basename": "Template-Frontmatter",
+      "path": "05-SYSTEM/Templates/Template-Frontmatter.md"
+    },
+    {
+      "basename": "Gridded Soil Survey Geographic Database (gSSURGO)",
+      "path": "04-RESOURCES/Definitions/Gridded Soil Survey Geographic Database (gSSURGO).md"
+    },
+    {
+      "basename": "Soil Data Access (SDA)",
+      "path": "04-RESOURCES/Definitions/Soil Data Access (SDA).md"
+    },
+    {
+      "basename": "Soil Survey Geographic Database (SSURGO)",
+      "path": "04-RESOURCES/Definitions/Soil Survey Geographic Database (SSURGO).md"
+    },
+    {
+      "basename": "List - Browser Extensions 1",
+      "path": "04-RESOURCES/Lists/List - Browser Extensions 1.md"
+    },
+    {
+      "basename": "United States Department of Agriculture (USDA)",
+      "path": "04-RESOURCES/Definitions/United States Department of Agriculture (USDA).md"
+    },
+    {
+      "basename": "Skill - R httptest2",
+      "path": "04-RESOURCES/Skills/Skill - R httptest2.md"
+    },
+    {
+      "basename": "RStudio",
+      "path": "04-RESOURCES/Definitions/RStudio.md"
+    },
+    {
+      "basename": "List - R sf Extension Packages",
+      "path": "04-RESOURCES/Lists/List - R sf Extension Packages.md"
+    },
+    {
+      "basename": "R - S3",
+      "path": "04-RESOURCES/Code/R/R - S3.md"
+    },
+    {
+      "basename": "R - Proxying HTTP Requests & Responses",
+      "path": "04-RESOURCES/Code/R/R - Proxying HTTP Requests & Responses.md"
+    },
+    {
+      "basename": "PowerShell - Mount Virtual Disk",
+      "path": "04-RESOURCES/Code/PowerShell/PowerShell - Mount Virtual Disk.md"
+    },
+    {
+      "basename": "Guide - R Package Development",
+      "path": "04-RESOURCES/Guides/Guide - R Package Development.md"
+    },
+    {
+      "basename": "Project - USA Parcels SDI",
+      "path": "00-INBOX/Project - USA Parcels SDI.md"
+    },
+    {
+      "basename": "R - HTTP Testing",
+      "path": "04-RESOURCES/Code/R/R - HTTP Testing.md"
+    },
+    {
+      "basename": "R - Conditions",
+      "path": "04-RESOURCES/Code/R/R - Conditions.md"
+    },
+    {
+      "basename": "R - cli Package DSL",
+      "path": "04-RESOURCES/Code/R/R - cli Package DSL.md"
+    },
+    {
+      "basename": "R - cli Package Best Practices",
+      "path": "04-RESOURCES/Code/R/R - cli Package Best Practices.md"
+    },
+    {
+      "basename": "R - API Client Package Development",
+      "path": "04-RESOURCES/Code/R/R - API Client Package Development.md"
+    },
+    {
+      "basename": "Natural Resources Conservation Service (NRCS)",
+      "path": "04-RESOURCES/Definitions/Natural Resources Conservation Service (NRCS).md"
+    },
+    {
+      "basename": "List - STAC Extensions",
+      "path": "04-RESOURCES/Lists/List - STAC Extensions.md"
+    },
+    {
+      "basename": "List - GeoParquet Tools",
+      "path": "04-RESOURCES/Lists/List - GeoParquet Tools.md"
+    },
+    {
+      "basename": "GeoPackage",
+      "path": "04-RESOURCES/Definitions/GeoPackage.md"
+    },
+    {
+      "basename": "gSSURGO Value Added Look Up Valu1 Table Column Descriptions",
+      "path": "05-SYSTEM/Attachments/gSSURGO Value Added Look Up Valu1 Table Column Descriptions.pdf"
+    },
+    {
+      "basename": "gSSURGO_UserGuide_July2020",
+      "path": "05-SYSTEM/Attachments/gSSURGO_UserGuide_July2020.pdf"
+    },
+    {
+      "basename": "MOC - Geospatial",
+      "path": "03-AREAS/MOC - Geospatial.md"
+    },
+    {
+      "basename": "JSON Lines (JSONL)",
+      "path": "04-RESOURCES/Definitions/JSON Lines (JSONL).md"
+    },
+    {
+      "basename": "JSON Web Token (JWT)",
+      "path": "04-RESOURCES/Definitions/JSON Web Token (JWT).md"
+    },
+    {
+      "basename": "Keyhole Markup Language (KML)",
+      "path": "04-RESOURCES/Definitions/Keyhole Markup Language (KML).md"
+    },
+    {
+      "basename": "R - plumber2 Shiny App Serving",
+      "path": "04-RESOURCES/Code/R/R - plumber2 Shiny App Serving.md"
+    },
+    {
+      "basename": "2026-07-07",
+      "path": "02-JOURNAL/2026/07-July/2026-07-07.md"
+    },
+    {
+      "basename": "Checklist - Real Estate Parcel Due Diligence",
+      "path": "04-RESOURCES/Checklists/Checklist - Real Estate Parcel Due Diligence.md"
+    },
+    {
+      "basename": "GIS Estate (Whop)",
+      "path": "00-INBOX/GIS Estate (Whop).md"
+    },
+    {
       "basename": "Perplexity - 2026-07-05 - Optimizing GeoParquet Creation with GDAL for SDI",
       "path": "04-RESOURCES/WebClips/Perplexity/Perplexity - 2026-07-05 - Optimizing GeoParquet Creation with GDAL for SDI.md"
     },
@@ -25,10 +177,6 @@
       "path": "02-JOURNAL/2026/07-July/2026-07-03.md"
     },
     {
-      "basename": "Checklist - Real Estate Due Diligence",
-      "path": "04-RESOURCES/Checklists/Checklist - Real Estate Due Diligence.md"
-    },
-    {
       "basename": "R - Async JSON API with plumber2 mirai and S7",
       "path": "04-RESOURCES/Code/R/R - Async JSON API with plumber2 mirai and S7.md"
     },
@@ -51,150 +199,6 @@
     {
       "basename": "Conditional Use Permit (CUP)",
       "path": "04-RESOURCES/Definitions/Conditional Use Permit (CUP).md"
-    },
-    {
-      "basename": "Capitalization Rate (Cap Rate)",
-      "path": "04-RESOURCES/Definitions/Capitalization Rate (Cap Rate).md"
-    },
-    {
-      "basename": "NSPS Land Title Survey",
-      "path": "04-RESOURCES/Definitions/NSPS Land Title Survey.md"
-    },
-    {
-      "basename": "Absorption Rate (Real Estate)",
-      "path": "04-RESOURCES/Definitions/Absorption Rate (Real Estate).md"
-    },
-    {
-      "basename": "Entitlement (Land Development)",
-      "path": "04-RESOURCES/Definitions/Entitlement (Land Development).md"
-    },
-    {
-      "basename": "National Society of Professional Surveyors (NSPS)",
-      "path": "04-RESOURCES/Definitions/National Society of Professional Surveyors (NSPS).md"
-    },
-    {
-      "basename": "American Land Title Association (ALTA)",
-      "path": "04-RESOURCES/Definitions/American Land Title Association (ALTA).md"
-    },
-    {
-      "basename": "JavaScript - Add Geolocation Control Integration to Leaflet",
-      "path": "04-RESOURCES/Code/JavaScript/JavaScript - Add Geolocation Control Integration to Leaflet.md"
-    },
-    {
-      "basename": "Skill - R httptest2",
-      "path": "00-INBOX/Skill - R httptest2.md"
-    },
-    {
-      "basename": "2026-06-30",
-      "path": "02-JOURNAL/2026/06-June/2026-06-30.md"
-    },
-    {
-      "basename": "R - S3",
-      "path": "00-INBOX/R - S3.md"
-    },
-    {
-      "basename": "Clarification of CPU Processors Threads and Cores",
-      "path": "00-INBOX/Clarification of CPU Processors Threads and Cores.md"
-    },
-    {
-      "basename": "Browser Extensions",
-      "path": "00-INBOX/Browser Extensions.md"
-    },
-    {
-      "basename": "2026-07-01",
-      "path": "02-JOURNAL/2026/07-July/2026-07-01.md"
-    },
-    {
-      "basename": "Project - USA Parcels SDI",
-      "path": "00-INBOX/Project - USA Parcels SDI.md"
-    },
-    {
-      "basename": "Spatial Data Infrastructure (SDI)",
-      "path": "04-RESOURCES/Definitions/Spatial Data Infrastructure (SDI).md"
-    },
-    {
-      "basename": "GeoArrow",
-      "path": "04-RESOURCES/Definitions/GeoArrow.md"
-    },
-    {
-      "basename": "RStudio",
-      "path": "00-INBOX/RStudio.md"
-    },
-    {
-      "basename": "Template-Definition",
-      "path": "05-SYSTEM/Templates/Template-Definition.md"
-    },
-    {
-      "basename": "Bounding Box (BBOX)",
-      "path": "04-RESOURCES/Definitions/Bounding Box (BBOX).md"
-    },
-    {
-      "basename": "American Community Survey (ACS)",
-      "path": "04-RESOURCES/Definitions/American Community Survey (ACS).md"
-    },
-    {
-      "basename": "Census Block Group (BG)",
-      "path": "04-RESOURCES/Definitions/Census Block Group (BG).md"
-    },
-    {
-      "basename": "Binary Large Object (BLOB)",
-      "path": "04-RESOURCES/Definitions/Binary Large Object (BLOB).md"
-    },
-    {
-      "basename": "Association of American Geographers (AAG)",
-      "path": "04-RESOURCES/Definitions/Association of American Geographers (AAG).md"
-    },
-    {
-      "basename": "Anti-Corruption Layer (ACL)",
-      "path": "04-RESOURCES/Definitions/Anti-Corruption Layer (ACL).md"
-    },
-    {
-      "basename": "GDAL Streaming Algorithm Format (GDALG)",
-      "path": "04-RESOURCES/Definitions/GDAL Streaming Algorithm Format (GDALG).md"
-    },
-    {
-      "basename": "Functional Core Imperative Shell (FCIS)",
-      "path": "04-RESOURCES/Definitions/Functional Core Imperative Shell (FCIS).md"
-    },
-    {
-      "basename": "MOC - Geospatial",
-      "path": "03-AREAS/MOC - Geospatial.md"
-    },
-    {
-      "basename": "Directed Acyclic Graph (DAG)",
-      "path": "04-RESOURCES/Definitions/Directed Acyclic Graph (DAG).md"
-    },
-    {
-      "basename": "Geographic Information Systems (GIS)",
-      "path": "04-RESOURCES/Definitions/Geographic Information Systems (GIS).md"
-    },
-    {
-      "basename": "List - STAC Extensions",
-      "path": "00-INBOX/List - STAC Extensions.md"
-    },
-    {
-      "basename": "ZSTD Compression",
-      "path": "00-INBOX/ZSTD Compression.md"
-    },
-    {
-      "basename": "GDAL - Large GeoPackage to FlatGeoBuf Pipeline",
-      "path": "00-INBOX/GDAL - Large GeoPackage to FlatGeoBuf Pipeline.md"
-    },
-    {
-      "basename": "GDAL Configuration",
-      "path": "00-INBOX/GDAL Configuration.md"
-    },
-    {
-      "basename": "R Package - sysreqR",
-      "path": "04-RESOURCES/Tools/R Packages/R Package - sysreqR.md"
-    },
-    {
-      "basename": "GDAL Driver Parquet Create Metadata File",
-      "path": "00-INBOX/GDAL Driver Parquet Create Metadata File.md"
-    },
-    {
-      "basename": "GeoParquet 2.0 & GDAL 3.13",
-      "path": "00-INBOX/GeoParquet 2.0 & GDAL 3.13.md"
     }
   ],
   "omittedPaths": [],

@@ -1,24 +1,12 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-07-06T00:11:39.215Z",
+  "updatedAt": "2026-07-09T19:29:54.628Z",
   "vaultRoot": "D:/obsidian/ObsidianVault",
   "workspaceFolders": [
     "D:/obsidian/ObsidianVault"
   ],
-  "activeFile": {
-    "filePath": "D:\\obsidian\\ObsidianVault\\04-RESOURCES\\WebClips\\Perplexity\\Perplexity - 2026-07-05 - Optimizing GeoParquet Creation with GDAL for SDI.md",
-    "vaultPath": "04-RESOURCES/WebClips/Perplexity/Perplexity - 2026-07-05 - Optimizing GeoParquet Creation with GDAL for SDI.md",
-    "fileUrl": "file:///D:/obsidian/ObsidianVault/04-RESOURCES/WebClips/Perplexity/Perplexity%20-%202026-07-05%20-%20Optimizing%20GeoParquet%20Creation%20with%20GDAL%20for%20SDI.md",
-    "hasFocus": false
-  },
-  "openFiles": [
-    {
-      "filePath": "D:\\obsidian\\ObsidianVault\\04-RESOURCES\\WebClips\\Perplexity\\Perplexity - 2026-07-05 - Optimizing GeoParquet Creation with GDAL for SDI.md",
-      "vaultPath": "04-RESOURCES/WebClips/Perplexity/Perplexity - 2026-07-05 - Optimizing GeoParquet Creation with GDAL for SDI.md",
-      "fileUrl": "file:///D:/obsidian/ObsidianVault/04-RESOURCES/WebClips/Perplexity/Perplexity%20-%202026-07-05%20-%20Optimizing%20GeoParquet%20Creation%20with%20GDAL%20for%20SDI.md",
-      "isActive": true
-    }
-  ],
+  "activeFile": null,
+  "openFiles": [],
   "selection": null
 }

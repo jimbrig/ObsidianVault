@@ -34,7 +34,7 @@ includeLinks: true
 
 - [[R - Conditions]]
 
-- [[R - Package Development]]
+- [[Guide - R Package Development]]
 - [[List - r-lib R Packages|r-lib Packages]]
 - [[R - S3]]
 - [[R - check_data()]]

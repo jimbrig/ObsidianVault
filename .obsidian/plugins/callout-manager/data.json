@@ -2,17 +2,10 @@
   "callouts": {
     "custom": [
       "source",
-      "code"
+      "code",
+      "pdf"
     ],
-    "settings": {
-      "code": [
-        {
-          "changes": {
-            "icon": "lucide-message-square-code"
-          }
-        }
-      ]
-    }
+    "settings": {}
   },
   "calloutDetection": {
     "obsidian": true,

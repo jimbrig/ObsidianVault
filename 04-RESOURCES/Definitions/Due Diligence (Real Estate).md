@@ -24,7 +24,7 @@ includeLinks: true
 ## Overview
 
 > [!info] See Also:
-> [[Checklist - Real Estate Due Diligence]]
+> [[Checklist - Real Estate Parcel Due Diligence]]
 
 **Due Diligence** ...
 

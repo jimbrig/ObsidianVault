@@ -6,5 +6,8 @@
   "monospaceFontFamily": "FiraCode Nerd Font",
   "baseFontSize": 14,
   "baseFontSizeAction": true,
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "code"
+  ],
+  "theme": "obsidian"
 }

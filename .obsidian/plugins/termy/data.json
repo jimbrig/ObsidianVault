@@ -19,7 +19,7 @@
   "fontFamily": "CaskaydiaCove Nerd Font, Consolas, \"Courier New\", monospace",
   "cursorStyle": "block",
   "cursorBlink": true,
-  "useObsidianTheme": true,
+  "useObsidianTheme": false,
   "preferredRenderer": "canvas",
   "scrollback": 1000,
   "backgroundImageOpacity": 0.5,
@@ -139,5 +139,6 @@
     }
   ],
   "lastSeenChangelogVersion": "1.4.1",
-  "enableDebugLog": false
+  "enableDebugLog": false,
+  "foregroundColor": "#ffffff"
 }

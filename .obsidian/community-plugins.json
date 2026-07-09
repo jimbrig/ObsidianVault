@@ -8,7 +8,6 @@
   "templater-obsidian",
   "obsidian-vault-changelog",
   "calendar",
-  "callout-manager",
   "code-styler",
   "convert-url-to-iframe",
   "obsidian-dictionary-plugin",
@@ -19,5 +18,10 @@
   "obsidian-imgur-plugin",
   "obsidian-git",
   "table-editor-obsidian",
-  "automatic-table-of-contents"
+  "automatic-table-of-contents",
+  "badges",
+  "link-favicon",
+  "pi-agent",
+  "pdf-plus",
+  "special-callouts"
 ]

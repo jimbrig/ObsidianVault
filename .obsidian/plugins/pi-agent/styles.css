@@ -1,0 +1,916 @@
+.pi-agent-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 12px;
+  padding: 12px;
+}
+
+.pi-agent-header {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  min-height: 30px;
+}
+
+.pi-agent-brand {
+  align-items: center;
+  display: inline-flex;
+  gap: 7px;
+  min-width: 0;
+}
+
+.pi-agent-brand-icon {
+  align-items: center;
+  color: var(--text-muted);
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 18px;
+  justify-content: center;
+  width: 18px;
+}
+
+.pi-agent-brand-icon svg {
+  height: 18px;
+  width: 18px;
+}
+
+.pi-agent-thread-title {
+  appearance: none;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  color: var(--text-normal);
+  cursor: default;
+  display: inline;
+  font-size: var(--font-ui-small);
+  min-width: 0;
+  overflow: hidden;
+  padding: 0;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pi-agent-thread-title:hover,
+.pi-agent-thread-title:focus,
+.pi-agent-thread-title.is-editing {
+  background: none;
+  box-shadow: none;
+  color: var(--text-normal);
+  outline: none;
+}
+
+.pi-agent-thread-title > span:first-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pi-agent-thread-title-input {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  color: var(--text-normal);
+  font: inherit;
+  height: 22px;
+  min-width: 120px;
+  outline: none;
+  padding: 0;
+  width: min(220px, 34vw);
+}
+
+.pi-agent-header-actions {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 2px;
+}
+
+.pi-agent-header-action,
+.pi-agent-thread-menu {
+  background: transparent;
+  color: var(--text-muted);
+  height: 30px;
+  width: 30px;
+}
+
+.pi-agent-header-action svg,
+.pi-agent-thread-menu svg {
+  height: 16px;
+  width: 16px;
+}
+
+.pi-agent-header-action:hover,
+.pi-agent-header-action:focus,
+.pi-agent-thread-menu:hover,
+.pi-agent-thread-menu:focus {
+  background: transparent;
+  color: var(--text-normal);
+}
+
+.pi-agent-run-settings {
+  align-items: center;
+  display: flex;
+  flex: 1 1 auto;
+  gap: 2px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.pi-agent-view button.pi-agent-run-setting {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: none;
+  color: var(--text-normal);
+  gap: 4px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 28px;
+  justify-content: center;
+  padding: 0 4px;
+  width: auto;
+}
+
+.pi-agent-run-setting:hover,
+.pi-agent-run-setting:focus {
+  background: transparent;
+  color: var(--text-normal);
+}
+
+.pi-agent-run-setting svg {
+  height: 15px;
+  width: 15px;
+}
+
+.pi-agent-run-setting-speed-fast,
+.pi-agent-run-setting-speed-default,
+.pi-agent-run-setting-mode-read {
+  color: var(--text-normal);
+}
+
+.pi-agent-run-setting-mode-write {
+  color: var(--text-warning);
+}
+
+.pi-agent-run-setting-mode-full {
+  color: var(--text-error);
+  font-weight: 700;
+}
+
+.pi-agent-control-label {
+  color: currentColor;
+  font-size: var(--font-ui-smaller);
+  line-height: 1;
+  max-width: 78px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pi-agent-messages {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  flex: 1;
+  min-height: 220px;
+  overflow: auto;
+  padding: 10px;
+}
+
+.pi-agent-empty {
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.pi-agent-empty-state {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.pi-agent-empty-icon {
+  color: color-mix(in srgb, var(--text-muted) 35%, transparent);
+  display: inline-flex;
+}
+
+.pi-agent-empty-icon svg {
+  height: 34px;
+  width: 34px;
+}
+
+.pi-agent-message {
+  margin-bottom: 12px;
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+.pi-agent-message-role {
+  align-items: center;
+  color: var(--text-muted);
+  display: flex;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.pi-agent-message-role-title {
+  align-items: center;
+  display: inline-flex;
+  flex: 1;
+  gap: 5px;
+  min-width: 0;
+}
+
+.pi-agent-message-actions {
+  background: transparent;
+  border-radius: 6px;
+  color: var(--text-muted);
+  height: 28px;
+  opacity: 1;
+  width: 28px;
+}
+
+.pi-agent-message-actions:hover,
+.pi-agent-message-actions:focus {
+  background: transparent;
+  color: var(--text-normal);
+}
+
+.pi-agent-setting-error {
+  color: var(--text-error);
+  font-size: var(--font-ui-smaller);
+  margin: -8px 0 10px;
+}
+
+.pi-agent-role-icon {
+  align-items: center;
+  color: var(--text-faint);
+  display: inline-flex;
+  height: 14px;
+  justify-content: center;
+  width: 14px;
+}
+
+.pi-agent-role-icon svg {
+  height: 14px;
+  width: 14px;
+}
+
+.pi-agent-message-content {
+  background: var(--background-secondary);
+  border-radius: 8px;
+  color: var(--text-normal);
+  cursor: text;
+  font-family: var(--font-interface);
+  font-size: var(--font-ui-medium);
+  line-height: var(--line-height-normal);
+  margin: 0;
+  overflow: auto;
+  padding: 10px;
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+.pi-agent-message-content.markdown-rendered {
+  white-space: normal;
+}
+
+.pi-agent-message-content-streaming {
+  contain: paint;
+  overflow-x: hidden;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+.pi-agent-message-content.markdown-rendered table {
+  border-collapse: collapse;
+  margin: 8px 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.pi-agent-message-content.markdown-rendered th,
+.pi-agent-message-content.markdown-rendered td {
+  border: 1px solid var(--background-modifier-border);
+  padding: 4px 8px;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.pi-agent-message-content.markdown-rendered th {
+  background: var(--background-modifier-hover);
+  font-weight: 600;
+}
+
+.pi-agent-message-content.markdown-rendered tr:nth-child(even) {
+  background: color-mix(in srgb, var(--background-modifier-hover) 30%, transparent);
+}
+
+.pi-agent-message-content.markdown-rendered pre {
+  padding: 0.6rem 0.9rem;
+  margin: 8px 0;
+  max-width: 100%;
+  overflow-x: auto;
+  background: var(--background-modifier-border);
+  border-radius: 4px;
+}
+
+.pi-agent-message-content.markdown-rendered :not(pre) > code {
+  background: var(--background-modifier-border);
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.92em;
+  word-break: break-all;
+}
+
+.pi-agent-message-content.markdown-rendered blockquote {
+  border-left: 3px solid var(--interactive-accent);
+  padding-inline-start: 1rem;
+  margin: 8px 0;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.pi-agent-streaming-text {
+  white-space: pre-wrap;
+}
+
+.pi-agent-typing-cursor {
+  animation: pi-agent-typing-cursor-blink 0.9s steps(2, start) infinite;
+  color: var(--interactive-accent);
+  margin-left: 2px;
+}
+
+@keyframes pi-agent-typing-cursor-blink {
+  0%,
+  45% {
+    opacity: 1;
+  }
+  46%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.pi-agent-message-content,
+.pi-agent-message-content * {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+.pi-agent-message-user .pi-agent-message-content {
+  background: color-mix(in srgb, var(--interactive-accent) 10%, var(--background-primary-alt));
+}
+
+.pi-agent-message-user .pi-agent-message-role {
+  color: color-mix(in srgb, var(--interactive-accent) 82%, var(--text-muted));
+}
+
+.pi-agent-message-user .pi-agent-role-icon {
+  color: color-mix(in srgb, var(--interactive-accent) 82%, var(--text-muted));
+}
+
+.pi-agent-composer {
+  display: grid;
+  gap: 8px;
+  position: relative;
+}
+
+.pi-agent-tool-badges {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  min-height: 18px;
+}
+
+.pi-agent-tool-badge {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  line-height: 1.4;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.pi-agent-tool-badge.is-enabled {
+  color: var(--text-muted);
+}
+
+.pi-agent-tool-badge-context {
+  font-variant-numeric: tabular-nums;
+  margin-left: auto;
+  max-width: none;
+}
+
+.pi-agent-composer-bar {
+  align-items: center;
+  display: flex;
+  gap: 6px;
+  min-width: 0;
+}
+
+.pi-agent-composer-bar.is-compact {
+  gap: 3px;
+}
+
+.pi-agent-composer-bar.is-compact .pi-agent-run-setting {
+  gap: 0;
+  padding: 0;
+  width: 28px;
+}
+
+.pi-agent-composer-bar.is-compact .pi-agent-run-setting .pi-agent-control-label {
+  display: none;
+}
+
+.pi-agent-composer-bar.is-compact.is-expanded {
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.pi-agent-composer-bar.is-compact.is-expanded .pi-agent-run-settings {
+  display: flex;
+  flex: 1 0 100%;
+  order: 10;
+}
+
+.pi-agent-composer-bar.is-compact.is-expanded .pi-agent-run-setting {
+  flex: 1 1 0;
+  gap: 4px;
+  min-width: 0;
+  padding: 0 4px;
+  width: auto;
+}
+
+.pi-agent-composer-bar.is-compact.is-expanded .pi-agent-run-setting .pi-agent-control-label {
+  display: inline;
+}
+
+.pi-agent-composer-bar.is-narrow:not(.is-expanded) .pi-agent-run-settings {
+  display: flex;
+}
+
+.pi-agent-composer-bar.is-narrow .pi-agent-send-button {
+  margin-left: auto;
+}
+
+.pi-agent-prompt-queue {
+  display: grid;
+  gap: 6px;
+}
+
+.pi-agent-prompt-queue.is-empty {
+  display: none;
+}
+
+.pi-agent-prompt-queue-heading {
+  align-items: center;
+  color: var(--text-muted);
+  display: flex;
+  font-size: var(--font-ui-smaller);
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.pi-agent-prompt-queue-hint {
+  color: var(--text-faint);
+  font-weight: 400;
+}
+
+.pi-agent-prompt-queue-item {
+  align-items: center;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding: 6px 8px;
+}
+
+.pi-agent-prompt-queue-text {
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+  line-height: 1.35;
+  max-height: 3.9em;
+  overflow: hidden;
+}
+
+.pi-agent-prompt-queue-actions {
+  align-items: center;
+  display: inline-flex;
+  gap: 2px;
+}
+
+.pi-agent-prompt-queue-action {
+  background: transparent;
+  color: var(--text-muted);
+  height: 24px;
+  width: 24px;
+}
+
+.pi-agent-prompt-queue-action:hover,
+.pi-agent-prompt-queue-action:focus {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+.pi-agent-composer textarea {
+  background: var(--background-primary);
+  color: var(--text-normal);
+  line-height: var(--line-height-normal);
+  max-height: 160px;
+  min-height: 38px;
+  overflow-y: auto;
+  resize: none;
+  width: 100%;
+  -webkit-text-fill-color: var(--text-normal);
+}
+
+.pi-agent-composer textarea::placeholder {
+  color: var(--text-muted);
+  -webkit-text-fill-color: var(--text-muted);
+}
+
+.pi-agent-composer textarea:disabled {
+  opacity: 0.75;
+}
+
+.pi-agent-view button.pi-agent-send-button {
+  align-items: center;
+  background: var(--interactive-accent);
+  border: 0;
+  box-shadow: none;
+  color: var(--text-on-accent);
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  height: 30px;
+  justify-content: center;
+  padding: 0 10px;
+  border-radius: 6px;
+  width: auto;
+}
+
+.pi-agent-send-button:hover,
+.pi-agent-send-button:focus {
+  background: var(--interactive-accent-hover);
+  color: var(--text-on-accent);
+}
+
+.pi-agent-send-button:disabled {
+  background: var(--background-modifier-border);
+  color: var(--text-muted);
+  opacity: 1;
+}
+
+.pi-agent-suggest {
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  bottom: calc(100% + 8px);
+  box-shadow: var(--shadow-s);
+  display: grid;
+  left: 0;
+  max-height: 260px;
+  overflow: auto;
+  padding: 4px;
+  position: absolute;
+  right: 0;
+  z-index: 20;
+}
+
+.pi-agent-suggest-item {
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: minmax(150px, 0.36fr) minmax(0, 1fr);
+  padding: 7px 8px;
+}
+
+.pi-agent-suggest-item.is-selected,
+.pi-agent-suggest-item:hover {
+  background: var(--background-modifier-hover);
+}
+
+.pi-agent-suggest-label {
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pi-agent-suggest-detail {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pi-agent-message-activity {
+  margin-bottom: 8px;
+}
+
+.pi-agent-inline-activity {
+  align-items: center;
+  color: var(--text-muted);
+  display: inline-flex;
+  font: inherit;
+  margin-left: 7px;
+  min-width: 0;
+  overflow: visible;
+}
+
+.pi-agent-activity-thinking,
+.pi-agent-activity-read,
+.pi-agent-activity-search,
+.pi-agent-activity-context,
+.pi-agent-activity-edit,
+.pi-agent-activity-shell,
+.pi-agent-activity-error,
+.pi-agent-activity-answer,
+.pi-agent-activity-finishing {
+  color: var(--text-muted);
+}
+
+.pi-agent-inline-activity-text {
+  animation: pi-agent-activity-flow 1.2s linear infinite;
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      transparent 28%,
+      color-mix(in srgb, var(--interactive-accent) 25%, transparent) 36%,
+      color-mix(in srgb, var(--interactive-accent) 70%, transparent) 45%,
+      var(--interactive-accent) 50%,
+      color-mix(in srgb, var(--interactive-accent) 70%, transparent) 55%,
+      color-mix(in srgb, var(--interactive-accent) 25%, transparent) 64%,
+      transparent 72%,
+      transparent 100%
+    ),
+    linear-gradient(var(--text-muted), var(--text-muted));
+  background-clip: text;
+  background-position:
+    140% 50%,
+    0 0;
+  background-repeat: no-repeat;
+  background-size:
+    220% 100%,
+    100% 100%;
+  color: var(--text-muted);
+  display: inline-block;
+  font: inherit;
+  font-size: var(--font-ui-smaller);
+  font-weight: 500;
+  line-height: inherit;
+  overflow: visible;
+  padding: 0 4px;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+
+@keyframes pi-agent-activity-flow {
+  0% {
+    background-position:
+      140% 50%,
+      0 0;
+  }
+  48%,
+  100% {
+    background-position:
+      -30% 50%,
+      0 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pi-agent-inline-activity-text,
+  .pi-agent-typing-cursor {
+    animation: none;
+  }
+
+  .pi-agent-inline-activity-text {
+    background: none;
+    filter: none;
+    -webkit-text-fill-color: var(--text-muted);
+  }
+}
+
+.pi-agent-activity-details {
+  border-left: 1px solid var(--background-modifier-border);
+  color: var(--text-muted);
+  display: grid;
+  font-size: var(--font-ui-smaller);
+  gap: 3px;
+  margin: 2px 0 0 30px;
+  padding-left: 10px;
+}
+
+.pi-agent-activity-detail {
+  line-height: 1.35;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pi-agent-approval {
+  display: grid;
+  gap: 12px;
+}
+
+.pi-agent-change-preview {
+  display: grid;
+  gap: 8px;
+}
+
+.pi-agent-change-preview h3 {
+  font-size: 13px;
+  margin: 0;
+}
+
+.pi-agent-change-preview pre {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  max-height: 260px;
+  overflow: auto;
+  padding: 10px;
+  white-space: pre-wrap;
+}
+
+.pi-agent-thread-list-header {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  min-height: 30px;
+}
+
+.pi-agent-thread-list-heading {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pi-agent-thread-list-title-heading {
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+  font-weight: var(--font-semibold);
+  line-height: 1.2;
+}
+
+.pi-agent-thread-list-subtitle {
+  color: var(--text-faint);
+  font-size: var(--font-ui-smaller);
+  line-height: 1.2;
+}
+
+.pi-agent-thread-list {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 0;
+  overflow: auto;
+}
+
+.pi-agent-thread-list-row {
+  align-items: center;
+  border-bottom: 1px solid var(--background-modifier-border);
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  min-height: 44px;
+  padding: 7px 0;
+}
+
+.pi-agent-thread-list-row:hover,
+.pi-agent-thread-list-row:focus-within {
+  background: color-mix(in srgb, var(--background-modifier-hover) 70%, transparent);
+}
+
+.pi-agent-thread-list-row.is-current {
+  box-shadow: inset 2px 0 0 var(--interactive-accent);
+  padding-left: 8px;
+}
+
+.pi-agent-thread-list-info {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pi-agent-thread-list-title {
+  align-items: center;
+  color: var(--text-normal);
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  font-size: var(--font-ui-small);
+  line-height: 1.25;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pi-agent-thread-list-title > span:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pi-agent-thread-list-running {
+  align-items: center;
+  animation: pi-agent-thread-running-spin 1s linear infinite;
+  color: var(--interactive-accent);
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.pi-agent-thread-list-running svg,
+.pi-agent-thread-list-favorite-indicator svg {
+  height: 13px;
+  width: 13px;
+}
+
+.pi-agent-thread-list-favorite-indicator,
+.pi-agent-thread-favorite.is-favorite {
+  color: var(--text-accent);
+}
+
+@keyframes pi-agent-thread-running-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pi-agent-thread-list-title:hover,
+.pi-agent-thread-list-title:focus {
+  color: var(--text-normal);
+  outline: none;
+}
+
+.pi-agent-thread-list-title-input {
+  background: transparent;
+  border: 0;
+  box-shadow: inset 0 -1px 0 var(--interactive-accent);
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+  line-height: 1.25;
+  max-width: 100%;
+  min-width: 0;
+  outline: none;
+  padding: 0;
+  width: 100%;
+}
+
+.pi-agent-thread-list-meta {
+  color: var(--text-faint);
+  font-size: var(--font-ui-smaller);
+  line-height: 1.25;
+  margin-top: 2px;
+}
+
+.pi-agent-thread-list-actions {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 2px;
+  opacity: 0.45;
+  transition: opacity 120ms ease;
+}
+
+.pi-agent-thread-list-row:hover .pi-agent-thread-list-actions,
+.pi-agent-thread-list-row:focus-within .pi-agent-thread-list-actions,
+.pi-agent-thread-list-row.is-current .pi-agent-thread-list-actions {
+  opacity: 1;
+}
+
+.pi-agent-thread-list-action {
+  background: transparent;
+  color: var(--text-muted);
+  height: 26px;
+  width: 26px;
+}
+
+.pi-agent-thread-list-action:hover,
+.pi-agent-thread-list-action:focus {
+  background: transparent;
+  color: var(--text-normal);
+}
+
+.pi-agent-modal-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}

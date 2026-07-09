@@ -1,0 +1,65 @@
+{
+  "model": "cursor/auto",
+  "customModel": "",
+  "reasoningEffort": "",
+  "sandboxMode": "full-agent",
+  "acknowledgedToolRisk": true,
+  "availableModels": [],
+  "dryRun": false,
+  "ignoredFolders": [
+    ".git",
+    "node_modules"
+  ],
+  "customInstructions": "",
+  "piExecutablePath": "",
+  "includeDefaultSkills": true,
+  "additionalSkillFolders": [],
+  "effectiveModel": "",
+  "effectiveReasoning": "",
+  "dismissedPiSetup": false,
+  "chatHistory": {
+    "currentThreadId": "thread-1783545023812-6tp8z4ld",
+    "threads": [
+      {
+        "id": "thread-1783545023812-6tp8z4ld",
+        "title": "Test",
+        "messages": [
+          {
+            "role": "user",
+            "content": "/context show",
+            "createdAt": 1783545108326
+          },
+          {
+            "role": "assistant",
+            "content": "Current Obsidian context:\n\n```json\n{\n  \"activeNote\": {\n    \"path\": \"03-AREAS/MOC - Geospatial.md\",\n    \"title\": \"MOC - Geospatial\",\n    \"hasSelection\": false,\n    \"selectionLength\": 0,\n    \"backlinkCount\": 8,\n    \"outgoingLinkCount\": 9,\n    \"unresolvedLinkCount\": 90,\n    \"tagCount\": 3,\n    \"headingCount\": 19\n  },\n  \"attachments\": {\n    \"total\": 1,\n    \"byType\": {\n      \"command\": 1\n    },\n    \"items\": [\n      {\n        \"type\": \"command\",\n        \"label\": \"/context\"\n      }\n    ]\n  },\n  \"searchResults\": {\n    \"count\": 0,\n    \"paths\": []\n  },\n  \"linkedNeighborhood\": {\n    \"count\": 8,\n    \"paths\": [\n      \"02-JOURNAL/2026/05-May/2026-05-17.md\",\n      \"04-RESOURCES/Definitions/Geographic Information Systems (GIS).md\",\n      \"00-INBOX/GeoPackage.md\",\n      \"03-AREAS/MOC - Data Engineering.md\",\n      \"03-AREAS/MOC - Data Science.md\",\n      \"03-AREAS/MOC - Development.md\",\n      \"04-RESOURCES/Definitions/GeoArrow.md\",\n      \"04-RESOURCES/Definitions/Spatial Data Infrastructure (SDI).md\"\n    ]\n  },\n  \"tools\": {\n    \"badges\": [\n      {\n        \"id\": \"read\",\n        \"label\": \"Read files\",\n        \"detail\": \"Pi can read files via CLI tools.\",\n        \"enabled\": true,\n        \"kind\": \"read\"\n      },\n      {\n        \"id\": \"search\",\n        \"label\": \"Search files\",\n        \"detail\": \"Pi can search/list files via CLI tools.\",\n        \"enabled\": true,\n        \"kind\": \"search\"\n      },\n      {\n        \"id\": \"write\",\n        \"label\": \"Edit files\",\n        \"detail\": \"Pi can edit and write files. Not OS-sandboxed.\",\n        \"enabled\": true,\n        \"kind\": \"write\"\n      },\n      {\n        \"id\": \"shell\",\n        \"label\": \"Shell\",\n        \"detail\": \"Pi can run shell commands. Not OS-sandboxed.\",\n        \"enabled\": true,\n        \"kind\": \"shell\"\n      }\n    ]\n  },\n  \"run\": {\n    \"model\": \"default\",\n    \"reasoning\": \"\",\n    \"mode\": \"full-agent\",\n    \"dryRun\": false\n  }\n}\n```",
+            "createdAt": 1783545108376,
+            "runMetadata": {
+              "model": "Pi default",
+              "reasoning": "Pi default",
+              "toolMode": "full-agent",
+              "toolModeLabel": "Full agent"
+            }
+          },
+          {
+            "role": "user",
+            "content": "do you have access to any of my installed pi extensions?",
+            "createdAt": 1783545143869
+          }
+        ],
+        "createdAt": 1783545023812,
+        "updatedAt": 1783545143869,
+        "archived": false,
+        "favorite": false
+      },
+      {
+        "id": "thread-1783543632008-0v669gtu",
+        "title": "New chat",
+        "messages": [],
+        "createdAt": 1783543632008,
+        "updatedAt": 1783543632008,
+        "archived": false,
+        "favorite": false
+      }
+    ]
+  }
+}
